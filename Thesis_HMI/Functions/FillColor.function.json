@@ -1,0 +1,42 @@
+﻿{
+  "function": {
+    "name": "FillColor",
+    "namespace": "TcHmi.Functions.Thesis_HMI",
+    "displayName": "FillColor",
+    "description": "",
+    "waitMode": "Synchronous",
+    "category": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/String"
+    },
+    "visible": true,
+    "injectContextObject": false,
+    "arguments": [
+      {
+        "name": "State",
+        "displayName": "State",
+        "type": "tchmi:general#/definitions/INT",
+        "description": "State to display",
+        "defaultValue": null,
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      },
+      {
+        "name": "Control",
+        "displayName": "Control",
+        "type": "tchmi:framework#/definitions/Control",
+        "description": "Control to be effective",
+        "defaultValue": "%ctrl%Default%/ctrl%",
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      }
+    ]
+  },
+  "$schema": "../.hmiframework/Schema/FunctionDescription.Schema.json"
+}

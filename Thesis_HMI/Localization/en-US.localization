@@ -1,0 +1,28 @@
+﻿{
+  "locale": "en-US",
+  "localizedText": {
+    "Home": "Home",
+    "Component": "COMPONENT",
+    "Pump": "PUMP",
+    "Fan": "FAN",
+    "Valve": "VALVE",
+    "Vessel": "VESSEL",
+    "Boiler": "BOILER",
+    "Turbine": "TURBINE",
+    "CondensePump": "Condense Pump",
+    "SupplyPump": "Supply Pump",
+    "CircularPump": "Circular Pump",
+    "ForceFan1": "Force Fan 1",
+    "ForceFan2": "Force Fan 2",
+    "ForceFan3": "Force Fan 3",
+    "LPHeaterValve": "LPH Valve",
+    "HPHeaterValve": "HPH Valve",
+    "AirEjectorValve": "Air.Ej Valve",
+    "TurbineValve": "Turbine Valve",
+    "LPHeater": "LP Heater",
+    "HPHeater": "HP Heater",
+    "AirEjector": "AirEjector",
+    "Condenser": "Condenser"
+  },
+  "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
+}

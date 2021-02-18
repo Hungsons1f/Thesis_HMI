@@ -1,0 +1,13 @@
+{
+    "CERTIFICATEEXPIRATION": "P14000D",
+    "REQUIREAUTH": 2,
+    "VIRTUALDIRECTORIES": {
+        "/": "D:\\Du lieu\\Môn học\\Luận văn tốt nghiệp\\Project\\Thesis\\Thesis_HMI\\Thesis_HMI",
+        "/Beckhoff.TwinCAT.HMI.Controls": "D:\\Du lieu\\Môn học\\Luận văn tốt nghiệp\\Project\\Thesis\\Thesis_HMI\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.742.5\\runtimes\\native1.12-tchmi",
+        "/Beckhoff.TwinCAT.HMI.Functions": "D:\\Du lieu\\Môn học\\Luận văn tốt nghiệp\\Project\\Thesis\\Thesis_HMI\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.742.5\\runtimes\\native1.12-tchmi",
+        "/Beckhoff.TwinCAT.HMI.ResponsiveNavigation": "D:\\Du lieu\\Môn học\\Luận văn tốt nghiệp\\Project\\Thesis\\Thesis_HMI\\Packages\\Beckhoff.TwinCAT.HMI.ResponsiveNavigation.12.742.1\\runtimes\\native1.12-tchmi",
+        "/bin": "D:\\Du lieu\\Môn học\\Luận văn tốt nghiệp\\Project\\Thesis\\Thesis_HMI\\Thesis_HMI\\bin\\",
+        "/bin/framework": "D:\\Du lieu\\Môn học\\Luận văn tốt nghiệp\\Project\\Thesis\\Thesis_HMI\\Thesis_HMI\\bin\\framework",
+        "/framework": "D:\\Du lieu\\Môn học\\Luận văn tốt nghiệp\\Project\\Thesis\\Thesis_HMI\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.742.5\\runtimes\\native1.12-tchmi"
+    }
+}

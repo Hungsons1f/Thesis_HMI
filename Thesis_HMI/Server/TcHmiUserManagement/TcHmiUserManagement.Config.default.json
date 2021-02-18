@@ -1,0 +1,34 @@
+{
+    "USERS": {
+        "Engineering": {
+            "ENABLED": true,
+            "PASSWORD": "e3ded750eaad282599022022ec6e971c900aeb093f79a035696de695348927ff",
+            "SALT": "Uyo3JfWJUGoa74pxrdFho7x8E0bmOMo6Gs+WPnDvqP6MS2jTzGaIlUFNbp8VG4KNChgU/y2IIH+BrWxdua0hAA=="
+        },
+        "Maintenance": {
+            "ENABLED": true,
+            "PASSWORD": "42edae93986212f468ab9a5c6c57d73a804b2f47550871f56cf29e031350014a",
+            "SALT": "Q8f2O7ZT2yRamaU9+dYy7C355tpIvkD3UW1VEzVhMAYWeeX1R5p5yBzhdey1phatTQPB2y75PsCOpmssnxI4AA=="
+        },
+        "Observer": {
+            "ENABLED": true,
+            "PASSWORD": "20ae95e5805ef712d4707aed9c4829d8b73e5126df69653e4f0ec3e475bcda54",
+            "SALT": "CBjFcO9O6brsFULKXbOfFPhkXAnKZFOk5Ub7whgYVJ1BD6FAjq8uzgeyw3qcw259Ta+XRZaAQsZkzk9K6xWnAA=="
+        },
+        "Operator": {
+            "ENABLED": true,
+            "PASSWORD": "db4d048f4fd86f58aa84962cee485a6ea97a54cc3416b8b0c66e0af201b677a3",
+            "SALT": "YER+nr86fO7xNc6Lpc5hg36mq+h8UgBkltIhTLC4x7fUhyMdA1+9qhrh4NW4yZF3oeIkqGRXeq6oGpvYfyXCAA=="
+        },
+        "__SystemAdministrator": {
+            "ENABLED": true,
+            "PASSWORD": "91436d3b5046a6b0abfbd4a63a429750de65c58b75f49e67c80542db894463f9",
+            "SALT": "BlVNTSONchl7LNe+z6FWZclZCy7OQowvz8GY+cgrhG0ps3+o4DwK6GQYA4XTV6GXCWzO2hj+684Uhf2/i52wAA=="
+        },
+        "__SystemGuest": {
+            "ENABLED": true,
+            "PASSWORD": "",
+            "SALT": ""
+        }
+    }
+}

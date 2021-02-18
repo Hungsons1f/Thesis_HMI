@@ -1,0 +1,280 @@
+﻿{
+  "$schema": "../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.742.1/runtimes/native1.12-tchmi/Schema/TchmiConfig.Schema.json",
+  "basePath": "./framework",
+  "scaleMode": "None",
+  "startupView": "Desktop.view",
+  "loginPage": "",
+  "tcHmiServer": {
+    "websocketIntervalTime": 100,
+    "websocketTimeout": 20000,
+    "websocketSystemTimeout": 60000,
+    "websocketSubscriptionMode": "Change"
+  },
+  "activeTheme": "Base",
+  "themes": {
+    "Base": {
+      "resources": [
+        {
+          "name": "Themes/Base/Base.theme",
+          "description": "",
+          "type": "ThemedValues"
+        },
+        {
+          "name": "Themes/Base/BaseStyle.css",
+          "description": "",
+          "type": "Stylesheet"
+        }
+      ],
+      "replacesThemeForControls": []
+    }
+  },
+  "dependencyFiles": [
+    {
+      "name": "Fonts/Fonts.css",
+      "description": "",
+      "type": "Stylesheet"
+    },
+    {
+      "name": "Functions/FillColor.js",
+      "description": "",
+      "type": "JavaScript"
+    }
+  ],
+  "userControls": [
+    {
+      "url": "UserControls/ucSideBarPump.usercontrol"
+    }
+  ],
+  "content": [
+    {
+      "url": "Contents/Monitor/FanForce3.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/FanForce2.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/PumpSupply.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/FanForce1.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/Turbine.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/Boiler.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/VesselCondenser.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/VesselAirEjector.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/VesselHPHeater.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/VesselLPHeater.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/PumpCircular.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/ValveTurbine.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/ValveAirEjector.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/ValveHPHeater.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/ValveLPHeater.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/PumpCondense.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Event.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Account.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Settings.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Default.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Parameter.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor.content",
+      "preload": false,
+      "keepAlive": false
+    }
+  ],
+  "views": [
+    {
+      "url": "Desktop.view",
+      "preload": false,
+      "keepAlive": false
+    }
+  ],
+  "userFunctions": [
+    {
+      "url": "Functions\\FillColor.js"
+    }
+  ],
+  "symbols": {
+    "internal": {
+      "clSideBar": {
+        "value": {
+          "color": "rgba(39, 39, 39, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDefaultGray": {
+        "value": {
+          "color": "rgba(164, 164, 164, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDefaultGreen": {
+        "value": {
+          "color": "rgba(86, 255, 0, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDefaultRed": {
+        "value": {
+          "color": "rgba(253, 2, 2, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDefaultYellow": {
+        "value": {
+          "color": "rgba(255, 244, 2, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDefaultBlue": {
+        "value": {
+          "color": "rgba(0, 210, 255, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDefaultWhite": {
+        "value": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clLightGray": {
+        "value": {
+          "color": "rgba(116, 116, 116, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      }
+    }
+  },
+  "trigger": [],
+  "actionTemplates": [],
+  "languages": {
+    "vi-VN": "Localization\\vi-VI.localization",
+    "de-DE": "Localization\\de-DE.localization",
+    "en-US": "Localization\\en-US.localization"
+  },
+  "disableLoadingOptimization": false,
+  "creatorSettings": {
+    "viewport": {
+      "defaultWidth": 768,
+      "defaultHeight": 1366
+    }
+  },
+  "packages": [
+    {
+      "name": "Beckhoff.TwinCAT.HMI.Controls",
+      "basePath": "/Beckhoff.TwinCAT.HMI.Controls"
+    },
+    {
+      "name": "Beckhoff.TwinCAT.HMI.Framework",
+      "basePath": "/framework"
+    },
+    {
+      "name": "Beckhoff.TwinCAT.HMI.Functions",
+      "basePath": "/Beckhoff.TwinCAT.HMI.Functions"
+    },
+    {
+      "name": "Beckhoff.TwinCAT.HMI.ResponsiveNavigation",
+      "basePath": "/Beckhoff.TwinCAT.HMI.ResponsiveNavigation"
+    }
+  ],
+  "keyboardLayouts": [
+    {
+      "url": "KeyboardLayouts/German - compact.keyboard.json"
+    },
+    {
+      "url": "KeyboardLayouts/US - compact.keyboard.json"
+    }
+  ]
+}

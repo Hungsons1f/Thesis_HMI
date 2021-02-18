@@ -1,0 +1,28 @@
+﻿{
+  "locale": "vi-VN",
+  "localizedText": {
+    "Home": "Trang chủ",
+    "Component": "THIẾT BỊ",
+    "Pump": "BƠM",
+    "Fan": "QUẠT",
+    "Valve": "VAN",
+    "Vessel": "BÌNH",
+    "Boiler": "LÒ HƠI",
+    "Turbine": "TUA BIN",
+    "CondensePump": "Bơm Ngưng",
+    "SupplyPump": "Bơm Cấp",
+    "CircularPump": "Bơm Tuần Hoàn",
+    "ForceFan1": "Quạt Cấp 1",
+    "ForceFan2": "Quạt Cấp 2",
+    "ForceFan3": "Quạt Cấp 3",
+    "LPHeaterValve": "Van GNHA",
+    "HPHeaterValve": "Van GNCA",
+    "AirEjectorValve": "Valve BKK",
+    "TurbineValve": "Van Tua bin",
+    "LPHeater": "GN Hạ Áp",
+    "HPHeater": "GN Cao Áp",
+    "AirEjector": "Bình Khử Khí",
+    "Condenser": "Bình Ngưng"
+  },
+  "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
+}

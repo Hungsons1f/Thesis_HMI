@@ -1,0 +1,162 @@
+﻿<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-mode="Content" data-tchmi-min-width="100" data-tchmi-min-width-unit="%" data-tchmi-height-mode="Content" data-tchmi-min-height="100" data-tchmi-min-height-unit="%" data-tchmi-creator-viewport-width="1360" data-tchmi-creator-viewport-height="768" data-tchmi-left-unit="%" data-tchmi-top-unit="%">
+<div id="TcHmi_Controls_System_TcHmiGrid" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidthUnit": "px",
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
+  {
+    "height": 11.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<div id="TcHmi_Controls_ResponsiveNavigation_TcHmiBreadcrumb" data-tchmi-type="TcHmi.Controls.ResponsiveNavigation.TcHmiBreadcrumb" data-tchmi-font-size-unit="%" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="6" data-tchmi-height-unit="%" data-tchmi-left="3" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-creator-visibility="Collapsed">
+
+</div>
+<div id="TcHmi_Controls_System_TcHmiRegion" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-target-content="Contents/Default.content">
+
+</div>
+<div id="TcHmi_Controls_ResponsiveNavigation_TcHmiNavigationBar" data-tchmi-type="TcHmi.Controls.ResponsiveNavigation.TcHmiNavigationBar" data-tchmi-font-size="110" data-tchmi-font-size-unit="%" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-mobile-icon-height-unit="px" data-tchmi-mobile-icon-width-unit="px" data-tchmi-padding-left-right-unit="px" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-nav-content-control-symbol="%ctrl%TcHmi_Controls_ResponsiveNavigation_TcHmiNavigationContent%/ctrl%" data-tchmi-bread-crumb-control-symbol="%ctrl%TcHmi_Controls_ResponsiveNavigation_TcHmiBreadcrumb%/ctrl%" data-tchmi-nav-target-region-control-symbol="%ctrl%TcHmi_Controls_System_TcHmiRegion%/ctrl%" data-tchmi-switch-breakpoint="650">
+
+
+<script data-tchmi-target-attribute="data-tchmi-menu-source-data" type="application/json">
+[
+  {
+    "name": "",
+    "page": "Contents/Default.content",
+    "parameter": "",
+    "subtitle": "",
+    "image": "Images/Icons/home.svg",
+    "imageWidth": 40.0,
+    "imageWidthUnit": "px",
+    "imageHeight": 40.0,
+    "imageHeightUnit": "px",
+    "children": "",
+    "accessRight": ""
+  },
+  {
+    "name": "",
+    "page": "Contents/Monitor.content",
+    "parameter": "",
+    "subtitle": "",
+    "image": "Images/Icons/monitor.svg",
+    "imageWidth": 40.0,
+    "imageWidthUnit": "px",
+    "imageHeight": 40.0,
+    "imageHeightUnit": "px",
+    "children": "",
+    "accessRight": ""
+  },
+  {
+    "name": "",
+    "page": "Contents/Parameter.content",
+    "parameter": "",
+    "subtitle": "",
+    "image": "Images/Icons/para.svg",
+    "imageWidth": 40.0,
+    "imageWidthUnit": "px",
+    "imageHeight": 40.0,
+    "imageHeightUnit": "px",
+    "children": "",
+    "accessRight": ""
+  },
+  {
+    "name": "",
+    "page": "Contents/Settings.content",
+    "parameter": "",
+    "subtitle": "",
+    "image": "Images/Icons/setting.svg",
+    "imageWidth": 40.0,
+    "imageWidthUnit": "px",
+    "imageHeight": 40.0,
+    "imageHeightUnit": "px",
+    "children": "",
+    "accessRight": ""
+  },
+  {
+    "name": "",
+    "page": "Contents/Account.content",
+    "parameter": "",
+    "subtitle": "",
+    "image": "Images/Icons/account.svg",
+    "imageWidth": 40.0,
+    "imageWidthUnit": "px",
+    "imageHeight": 40.0,
+    "imageHeightUnit": "px",
+    "children": "",
+    "accessRight": ""
+  },
+  {
+    "name": "",
+    "page": "Contents/Event.content",
+    "parameter": "",
+    "subtitle": "",
+    "image": "Images/Icons/event.svg",
+    "imageWidth": 40.0,
+    "imageWidthUnit": "px",
+    "imageHeight": 40.0,
+    "imageHeightUnit": "px",
+    "children": "",
+    "accessRight": ""
+  },
+  {
+    "name": "",
+    "page": "",
+    "parameter": "",
+    "subtitle": "",
+    "image": "Images/Icons/signout.svg",
+    "imageWidth": 40.0,
+    "imageWidthUnit": "px",
+    "imageHeight": 40.0,
+    "imageHeightUnit": "px",
+    "children": "",
+    "accessRight": ""
+  }
+]
+</script>
+</div>
+
+<div id="TcHmi_Controls_ResponsiveNavigation_TcHmiNavigationContent" data-tchmi-type="TcHmi.Controls.ResponsiveNavigation.TcHmiNavigationContent" data-tchmi-auto-collapse-elements="False" data-tchmi-close-font-size="130" data-tchmi-close-font-size-unit="%" data-tchmi-column-element-font-size="120" data-tchmi-column-element-font-size-unit="%" data-tchmi-column-element-margin-top-unit="px" data-tchmi-column-title-font-size="130" data-tchmi-column-title-font-size-unit="%" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="30" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-mobile-element-margin-top-unit="px" data-tchmi-padding-left-right-unit="px" data-tchmi-show-icons-mobile="True" data-tchmi-subtitle-font-size="130" data-tchmi-subtitle-font-size-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+
+</div>
+
+</div>
+
+</div>
