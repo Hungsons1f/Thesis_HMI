@@ -1,0 +1,61 @@
+﻿{
+  "parameters": [
+    {
+      "name": "data-tchmi-on",
+      "displayName": "On",
+      "visible": true,
+      "type": "tchmi:general#/definitions/Boolean",
+      "category": "",
+      "description": "",
+      "defaultValue": false,
+      "defaultValueInternal": false,
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "On",
+      "propertySetterName": "setOn",
+      "propertyGetterName": "getOn",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-coloron",
+      "displayName": "ColorOn",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Color",
+      "category": "",
+      "description": "",
+      "defaultValue": null,
+      "defaultValueInternal": null,
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "ColorOn",
+      "propertySetterName": "setColorOn",
+      "propertyGetterName": "getColorOn",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-coloroff",
+      "displayName": "ColorOff",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Color",
+      "category": "",
+      "description": "",
+      "defaultValue": null,
+      "defaultValueInternal": null,
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "ColorOff",
+      "propertySetterName": "setColorOff",
+      "propertyGetterName": "getColorOff",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.742.5/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

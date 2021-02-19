@@ -177,6 +177,13 @@
     <Content Include="Functions\SwitchFillColor.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Functions\VerticalAlign.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Functions\VerticalAlign.js</DependentUpon>
+    </Content>
+    <Content Include="Functions\VerticalAlign.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Icons\turbine.svg">
       <SubType>Content</SubType>
     </Content>
@@ -198,6 +205,25 @@
     <Content Include="Images\Icons\fan.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\SymbolFactory\boiler.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\coal-tank-norm.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\fan-norm.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\fan-act.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControls\ucLight_x.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControls\ucLight_x.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControls\ucLight_x.usercontrol</DependentUpon>
+    </Content>
     <Content Include="UserControls\ucSideBarPump.usercontrol">
       <SubType>Content</SubType>
     </Content>
@@ -212,11 +238,19 @@
       <SubType>Content</SubType>
       <DependentUpon>UserControls\ucSwitch_x.usercontrol</DependentUpon>
     </Content>
+    <Content Include="UserControls\ucSymbolFactory_x.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControls\ucSymbolFactory_x.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControls\ucSymbolFactory_x.usercontrol</DependentUpon>
+    </Content>
     <Folder Include="Contents\Monitor" />
     <Folder Include="Fonts\" />
     <Folder Include="Images" />
     <Folder Include="Images\Manifest" />
     <Folder Include="Images\Icons" />
+    <Folder Include="Images\SymbolFactory" />
     <Folder Include="Imports" />
     <Folder Include="Imports\Images" />
     <Folder Include="Imports\Videos" />

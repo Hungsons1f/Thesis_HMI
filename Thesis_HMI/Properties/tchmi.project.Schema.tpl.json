@@ -1,6 +1,22 @@
 ﻿{
   "$schema": "http://json-schema.org/draft-04/schema#",
   "definitions": {
+    "UserControls_ucSymbolFactory_x": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\ucSymbolFactory_x.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserControls_ucSymbolFactory_x"
+    },
+    "UserControls_ucLight_x": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\ucLight_x.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserControls_ucLight_x"
+    },
     "UserControls_ucSideBarPump": {
       "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
       "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",

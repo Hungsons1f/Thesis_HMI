@@ -1,0 +1,57 @@
+﻿{
+  "parameters": [
+    {
+      "name": "data-tchmi-state",
+      "displayName": "State",
+      "visible": true,
+      "type": "tchmi:general#/definitions/Boolean",
+      "category": "",
+      "description": "",
+      "defaultValue": false,
+      "defaultValueInternal": false,
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "State",
+      "propertySetterName": "setState",
+      "propertyGetterName": "getState",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-positiveimage",
+      "displayName": "PositiveImage",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Path",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "PositiveImage",
+      "propertySetterName": "setPositiveImage",
+      "propertyGetterName": "getPositiveImage",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-negativeimage",
+      "displayName": "NegativeImage",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Path",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "NegativeImage",
+      "propertySetterName": "setNegativeImage",
+      "propertyGetterName": "getNegativeImage",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.742.5/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

@@ -1,7 +1,7 @@
 ﻿{
   "locale": "vi-VN",
   "localizedText": {
-    "Home": "Trang chủ",
+    "Home": "Trang Chủ",
     "Component": "THIẾT BỊ",
     "Pump": "BƠM",
     "Fan": "QUẠT",
@@ -22,7 +22,26 @@
     "LPHeater": "GN Hạ Áp",
     "HPHeater": "GN Cao Áp",
     "AirEjector": "Bình Khử Khí",
-    "Condenser": "Bình Ngưng"
+    "Condenser": "Bình Ngưng",
+    "Manual": "Tay",
+    "Automatic": "Tự động",
+    "Start": "CHẠY",
+    "Stop": "DỪNG",
+    "Reset": "RESET",
+    "Setspeed": "Tốc Độ Đặt",
+    "Setpower": "C.suất Đặt",
+    "Set": "ĐẶT",
+    "Speed": "Tốc độ",
+    "Power": "C.suất",
+    "Runtime": "T.gian Chạy",
+    "AccRunTime": "T.gian Chạy T.lũy",
+    "MaxSpeed": "T.độ Tối Đa",
+    "State": "T.thái:",
+    "ManOn": "Tay - Chạy",
+    "ManOff": "Tay - Dừng",
+    "Fault": "Hỏng",
+    "CoalTank": "Bồn Than",
+    "Furnace": "Lò Đốt"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

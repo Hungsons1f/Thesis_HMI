@@ -43,6 +43,11 @@
       "name": "Functions/SwitchFillColor.js",
       "description": "",
       "type": "JavaScript"
+    },
+    {
+      "name": "Functions/VerticalAlign.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [
@@ -51,6 +56,12 @@
     },
     {
       "url": "UserControls/ucSwitch_x.usercontrol"
+    },
+    {
+      "url": "UserControls/ucLight_x.usercontrol"
+    },
+    {
+      "url": "UserControls/ucSymbolFactory_x.usercontrol"
     }
   ],
   "content": [
@@ -178,6 +189,9 @@
     },
     {
       "url": "Functions\\SwitchFillColor.js"
+    },
+    {
+      "url": "Functions\\VerticalAlign.js"
     }
   ],
   "symbols": {
@@ -201,14 +215,6 @@
       "clDefaultGreen": {
         "value": {
           "color": "rgba(86, 255, 0, 1)"
-        },
-        "type": "tchmi:framework#/definitions/Color",
-        "persist": false,
-        "readonly": false
-      },
-      "clDefaultRed": {
-        "value": {
-          "color": "rgba(253, 2, 2, 1)"
         },
         "type": "tchmi:framework#/definitions/Color",
         "persist": false,
@@ -241,6 +247,52 @@
       "clLightGray": {
         "value": {
           "color": "rgba(116, 116, 116, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "ScreenHeight": {
+        "value": 0.0,
+        "type": "tchmi:general#/definitions/Number",
+        "persist": false,
+        "readonly": false
+      },
+      "clDarkGreen": {
+        "value": {
+          "color": "rgba(86, 141, 0, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDefaultRed": {
+        "value": {
+          "color": "rgba(253, 2, 2, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDarkRed": {
+        "value": {
+          "color": "rgba(141, 2, 2, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDarkYellow": {
+        "value": {
+          "color": "rgba(180, 166, 2, 1)"
+        },
+        "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "clDarkBlue": {
+        "value": {
+          "color": "rgba(0, 142, 173, 1)"
         },
         "type": "tchmi:framework#/definitions/Color",
         "persist": false,

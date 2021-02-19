@@ -3,9 +3,6 @@
 <div id="rgRegion" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
 
 </div>
-<div id="TcHmi_Controls_Beckhoff_TcHmiTextblock_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="35.8" data-tchmi-left-unit="%" data-tchmi-text="Monitor" data-tchmi-top="15.7" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
-
-</div>
 
 
 <script data-tchmi-target-attribute="data-tchmi-virtual-control-right-mappings" type="application/json">
@@ -57,11 +54,7 @@
 ]
 </script>
 
-<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
-{
-  "color": "rgba(255, 255, 255, 1)"
-}
-</script>
+
 
 <div id="ctPumpMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="130" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="14.3" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
 <div id="tCondensePump" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-text="%l%CondensePump%/l%" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="px">
@@ -812,7 +805,7 @@
 </div>
 
 </div>
-<div id="ctSideBar" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="%" data-tchmi-width="230" data-tchmi-width-unit="px" data-tchmi-top="0" data-tchmi-right="0" data-tchmi-right-unit="px">
+<div id="ctSideBar" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="%" data-tchmi-width="230" data-tchmi-width-unit="px" data-tchmi-top="0" data-tchmi-right="-170" data-tchmi-right-unit="px">
 
 <div id="grSideBar" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-background-color="%i%clSideBar%/i%">
 <script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
@@ -916,9 +909,9 @@
     "offsetY": 5.0,
     "offsetYUnit": "px",
     "inset": false,
-    "blur": 20.0,
+    "blur": 10.0,
     "blurUnit": "px",
-    "spread": 10.0,
+    "spread": 7.0,
     "spreadUnit": "px"
   }
 ]

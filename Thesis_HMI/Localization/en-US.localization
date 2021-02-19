@@ -22,7 +22,26 @@
     "LPHeater": "LP Heater",
     "HPHeater": "HP Heater",
     "AirEjector": "AirEjector",
-    "Condenser": "Condenser"
+    "Condenser": "Condenser",
+    "Manual": "Manual",
+    "Automatic": "Automatic",
+    "Start": "START",
+    "Stop": "STOP",
+    "Reset": "RESET",
+    "Setspeed": "Set Speed",
+    "Setpower": "Set Power",
+    "Set": "SET",
+    "Speed": "Speed",
+    "Power": "Power",
+    "Runtime": "Run Time",
+    "AccRunTime": "Acc. Run Time",
+    "MaxSpeed": "Max Speed",
+    "State": "State:",
+    "ManOn": "Manual - Running",
+    "ManOff": "Manual - Stopped",
+    "Fault": "Fault",
+    "CoalTank": "Coal Tank",
+    "Furnace": "Furnace"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }
