@@ -1,0 +1,261 @@
+﻿<div id="ucSwitch_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="160" data-tchmi-left-unit="%" data-tchmi-top-unit="%" data-tchmi-min-width="60" data-tchmi-min-height="20" data-tchmi-right-unit="px" data-tchmi-height-unit="%" data-tchmi-height="100" data-tchmi-creator-visibility="Visible">
+
+
+
+
+div id="TcHmi_Controls_Beckhoff_TcHmiRectangle_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-stroke-thickness="0">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<div id="rectFill_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="%f%%pp%Size%/pp%*2%/f%" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="%f%%pp%Size%/pp%*5%/f%" data-tchmi-width-unit="px" data-tchmi-stroke-thickness="0" data-tchmi-radius-x="%pp%Size%/pp%" data-tchmi-radius-y="%pp%Size%/pp%" data-tchmi-fill-color="%pp%ColorZero%/pp%">
+
+
+
+</div>
+
+<div id="cirBtn_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiEllipse" data-tchmi-height="%f%%pp%Size%/pp%*1.8%/f%" data-tchmi-height-unit="px" data-tchmi-left="%f%%pp%Size%/pp%*0.1%/f%" data-tchmi-left-unit="px" data-tchmi-top="%f%%pp%Size%/pp%*0.1%/f%" data-tchmi-top-unit="px" data-tchmi-width="%f%%pp%Size%/pp%*1.8%/f%" data-tchmi-width-unit="px" data-tchmi-stroke-thickness="0">
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+</div>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ucSwitch_1.onPressed",
+    "actions": [
+      {
+        "objectType": "SwitchCase",
+        "active": true,
+        "compare": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%State%/pp%"
+        },
+        "cases": [
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/UINT",
+              "value": 0
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%State%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/UINT",
+                  "value": 1
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/UINT",
+              "value": 1
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%State%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/UINT",
+                  "value": 0
+                },
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "%pp%State%/pp%",
+    "actions": [
+      {
+        "objectType": "SwitchCase",
+        "active": true,
+        "compare": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%pp%State%/pp%"
+        },
+        "cases": [
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/UINT",
+              "value": 0
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%rectFill_1::FillColor%/ctrl%",
+                "value": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%ColorZero%/pp%"
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "JavaScript",
+                "active": true,
+                "sourceLines": [
+                  "var size = TcHmi.Symbol.readEx('%pp%Size%/pp%');\n\n//$('#cirBtn').animate({\n//\tleft: '10px'//size*0.1 + 'px'\n//},1);\n\n$('#cirBtn').animate({\n\tleft: '-170px'\n});"
+                ],
+                "injectContextObject": false,
+                "asyncWait": true,
+                "waitMode": "Synchronous"
+              },
+              {
+                "objectType": "WriteToSymbol",
+                "active": false,
+                "symbolExpression": "%ctrl%cirBtn_1::Left%/ctrl%",
+                "value": {
+                  "objectType": "FunctionExpression",
+                  "functionExpression": "%pp%Size%/pp%*0.1"
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:general#/definitions/UINT",
+              "value": 1
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%ctrl%rectFill_1::FillColor%/ctrl%",
+                "value": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%ColorOne%/pp%"
+                },
+                "asyncWait": true
+              },
+              {
+                "objectType": "JavaScript",
+                "active": true,
+                "sourceLines": [
+                  "var size = TcHmi.Symbol.readEx('%pp%Size%/pp%');\n\n$('#cirBtn').animate({\n\tleft: '20px'//size*3.1 + 'px'\n},1);"
+                ],
+                "injectContextObject": false,
+                "asyncWait": true,
+                "waitMode": "Synchronous"
+              },
+              {
+                "objectType": "WriteToSymbol",
+                "active": false,
+                "symbolExpression": "%ctrl%cirBtn_1::Left%/ctrl%",
+                "value": {
+                  "objectType": "FunctionExpression",
+                  "functionExpression": "%pp%Size%/pp%*3.1"
+                },
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+div id="rectBtn" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-left="10.0" data-tchmi-left-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-stroke-thickness="0" data-tchmi-radius-x="25" data-tchmi-radius-y="25" data-tchmi-height-unit="px" data-tchmi-top-unit="px" data-tchmi-top="10" data-tchmi-bottom="" data-tchmi-height="89">
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 30.0,
+  "topRight": 30.0,
+  "bottomLeft": 30.0,
+  "bottomRight": 30.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%ctrl%rectBtn::Left%/ctrl%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var pixel = $('#rectBtn').width();\n$('#rectBtn').height(pixel);\n\nTcHmi.Symbol.writeEx(%i%_ucSwitch%/i%, pixel);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+</div>

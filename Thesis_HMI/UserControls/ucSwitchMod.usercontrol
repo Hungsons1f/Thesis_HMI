@@ -1,0 +1,82 @@
+﻿<div id="ucSwitchMod" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500" data-tchmi-left-unit="%" data-tchmi-top-unit="%">
+
+    <div id="TcHmi_Controls_System_TcHmiHtmlHost_1" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-height="100">
+        <style>
+            .testlm {
+                color: #ff0000
+            }
+
+            /* The switch - the box around the slider */
+            .cydeus_ucswitch_switch {
+                position: relative;
+                display: inline-block;
+                width: 60px;
+                height: 34px;
+            }
+
+                /* Hide default HTML checkbox */
+                .cydeus_ucswitch_switch input {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                }
+
+            /* The slider */
+            .cydeus_ucswitch_slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+                .cydeus_ucswitch_slider:before {
+                    position: absolute;
+                    content: "";
+                    height: 26px;
+                    width: 26px;
+                    left: 4px;
+                    bottom: 4px;
+                    background-color: white;
+                    -webkit-transition: .4s;
+                    transition: .4s;
+                }
+
+            input:checked + .cydeus_ucswitch_slider {
+                background-color: #2196F3;
+            }
+
+            input:focus + .cydeus_ucswitch_slider {
+                box-shadow: 0 0 1px #2196F3;
+            }
+
+            input:checked + .cydeus_ucswitch_slider:before {
+                -webkit-transform: translateX(26px);
+                -ms-transform: translateX(26px);
+                transform: translateX(26px);
+            }
+
+            /* Rounded sliders */
+            .cydeus_ucswitch_slider.cydeus_ucswitch_round {
+                border-radius: 34px;
+            }
+
+                .cydeus_ucswitch_slider.cydeus_ucswitch_round:before {
+                    border-radius: 50%;
+                }
+        </style>
+
+        <h1 class="testlm">Helloworld</h1>
+
+        <!-- Rounded switch -->
+        <label class="cydeus_ucswitch_switch">
+            <input type="checkbox">
+            <span class="cydeus_ucswitch_slider cydeus_ucswitch_round"></span>
+        </label>
+    </div>
+
+</div>

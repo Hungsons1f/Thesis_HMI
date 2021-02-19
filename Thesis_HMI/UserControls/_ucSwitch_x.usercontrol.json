@@ -1,0 +1,87 @@
+﻿{
+  "parameters": [
+    {
+      "name": "data-tchmi-state",
+      "displayName": "State",
+      "visible": true,
+      "type": "tchmi:general#/definitions/UINT",
+      "category": "",
+      "description": "",
+      "defaultValue": 0,
+      "defaultValueInternal": 0,
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "State",
+      "propertySetterName": "setState",
+      "propertyGetterName": "getState",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-colorzero",
+      "displayName": "ColorZero",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Color",
+      "category": "",
+      "description": "",
+      "defaultValue": {
+        "color": "rgba(164, 164, 164, 1)"
+      },
+      "defaultValueInternal": {
+        "color": "rgba(164, 164, 164, 1)"
+      },
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "ColorZero",
+      "propertySetterName": "setColorZero",
+      "propertyGetterName": "getColorZero",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-colorone",
+      "displayName": "ColorOne",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Color",
+      "category": "",
+      "description": "",
+      "defaultValue": {
+        "color": "rgba(86, 255, 0, 1)"
+      },
+      "defaultValueInternal": {
+        "color": "rgba(86, 255, 0, 1)"
+      },
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "ColorOne",
+      "propertySetterName": "setColorOne",
+      "propertyGetterName": "getColorOne",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-size",
+      "displayName": "Size",
+      "visible": true,
+      "type": "tchmi:general#/definitions/Number",
+      "category": "",
+      "description": "",
+      "defaultValue": 10.0,
+      "defaultValueInternal": 10.0,
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Size",
+      "propertySetterName": "setSize",
+      "propertyGetterName": "getSize",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.742.5/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

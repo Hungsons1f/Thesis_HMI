@@ -23,7 +23,7 @@
     <EnableTypeScript>true</EnableTypeScript>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Thesis_HMI</Name>
-    <HmiCommunicationRouterPort>10101</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10102</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.742.1</HmiInitial>
     <HmiRecent>1.12.742.1</HmiRecent>
@@ -170,6 +170,13 @@
     <Content Include="Functions\FillColor.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Functions\SwitchFillColor.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Functions\SwitchFillColor.js</DependentUpon>
+    </Content>
+    <Content Include="Functions\SwitchFillColor.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Icons\turbine.svg">
       <SubType>Content</SubType>
     </Content>
@@ -197,6 +204,13 @@
     <Content Include="UserControls\ucSideBarPump.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControls\ucSideBarPump.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControls\ucSwitch_x.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControls\ucSwitch_x.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControls\ucSwitch_x.usercontrol</DependentUpon>
     </Content>
     <Folder Include="Contents\Monitor" />
     <Folder Include="Fonts\" />

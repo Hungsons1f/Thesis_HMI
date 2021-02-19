@@ -1,0 +1,66 @@
+﻿{
+  "function": {
+    "name": "SwitchFillColor",
+    "namespace": "TcHmi.Functions.Thesis_HMI",
+    "displayName": "SwitchFillColor",
+    "description": "",
+    "waitMode": "Synchronous",
+    "category": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/String"
+    },
+    "visible": true,
+    "injectContextObject": false,
+    "arguments": [
+      {
+        "name": "State",
+        "displayName": "State",
+        "type": "tchmi:general#/definitions/UINT",
+        "description": "",
+        "defaultValue": 0,
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      },
+      {
+        "name": "ColorZero",
+        "displayName": "ColorZero",
+        "type": "tchmi:framework#/definitions/Color",
+        "description": "This is an important Parameter which does... This text is used in a tooltip.",
+        "defaultValue": "",
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      },
+      {
+        "name": "ColorOne",
+        "displayName": "ColorOne",
+        "type": "tchmi:framework#/definitions/Color",
+        "description": "",
+        "defaultValue": "",
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      },
+      {
+        "name": "Control",
+        "displayName": "Control",
+        "type": "tchmi:framework#/definitions/Control",
+        "description": "",
+        "defaultValue": "%ctrl%_rectFill_x%/ctrl%",
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      }
+    ]
+  },
+  "$schema": "../.hmiframework/Schema/FunctionDescription.Schema.json"
+}

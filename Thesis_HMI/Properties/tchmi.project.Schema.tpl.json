@@ -8,6 +8,14 @@
       "frameworkUserControlConfig": "UserControls\\ucSideBarPump.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/UserControls_ucSideBarPump"
+    },
+    "UserControls_ucSwitch_x": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\ucSwitch_x.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserControls_ucSwitch_x"
     }
   }
 }

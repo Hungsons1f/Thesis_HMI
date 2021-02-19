@@ -38,11 +38,19 @@
       "name": "Functions/FillColor.js",
       "description": "",
       "type": "JavaScript"
+    },
+    {
+      "name": "Functions/SwitchFillColor.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [
     {
       "url": "UserControls/ucSideBarPump.usercontrol"
+    },
+    {
+      "url": "UserControls/ucSwitch_x.usercontrol"
     }
   ],
   "content": [
@@ -167,6 +175,9 @@
   "userFunctions": [
     {
       "url": "Functions\\FillColor.js"
+    },
+    {
+      "url": "Functions\\SwitchFillColor.js"
     }
   ],
   "symbols": {
