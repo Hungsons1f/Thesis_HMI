@@ -1,7 +1,863 @@
-﻿<div id="Default_4" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-left-unit="%" data-tchmi-top-unit="%" data-tchmi-width-unit="%" data-tchmi-height-unit="%">
+﻿<div id="Default_4" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-left-unit="%" data-tchmi-top-unit="%" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-creator-viewport-width="800" data-tchmi-creator-viewport-height="480">
 
-<div id="TcHmi_Controls_Beckhoff_TcHmiTextblock_6" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="113" data-tchmi-height-unit="px" data-tchmi-left="184" data-tchmi-left-unit="px" data-tchmi-text="Default" data-tchmi-top="218" data-tchmi-top-unit="px" data-tchmi-width="314" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+<div id="TcHmi_Controls_System_TcHmiGrid_219" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidthUnit": "px",
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 40.0,
+    "heightUnit": "%",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<div id="TcHmi_Controls_System_TcHmiGrid_220" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  },
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 1,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeightUnit": "px",
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<div id="TcHmi_Controls_System_TcHmiGrid_221" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidthUnit": "px",
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 30.0,
+    "heightUnit": "%",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<div id="TcHmi_Controls_Beckhoff_TcHmiTextblock_210" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-text="%l%User%/l%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="30" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="25" data-tchmi-text-font-weight="Bold">
 
 </div>
 
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="tUser" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="30" data-tchmi-left-unit="%" data-tchmi-text="" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="70" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="25" data-tchmi-text-font-weight="Normal" data-tchmi-tooltip="">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "tUser.onAttached",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var user = TcHmi.Server.getCurrentUser();\nTcHmi.Symbol.writeEx(\"%ctrl%tUser::Text%/ctrl%\", user);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="TcHmi_Controls_System_TcHmiGrid_222" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="15" data-tchmi-top-unit="%" data-tchmi-width="70" data-tchmi-width-unit="%">
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidthUnit": "px",
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<div id="tbOldPass" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="15" data-tchmi-left-unit="%" data-tchmi-text="" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="70" data-tchmi-width-unit="%" data-tchmi-placeholder="%l%OldPassword%/l%" data-tchmi-text-font-size="15" data-tchmi-text-font-weight="Normal">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+
+<div data-tchmi-grid-row-index="1" data-tchmi-grid-column-index="0" id="tbNewPass" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="15" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="70" data-tchmi-width-unit="%" data-tchmi-placeholder="%l%NewPassword%/l%" data-tchmi-text-font-size="15" data-tchmi-text-font-weight="Normal">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+
+</div>
+
+<div id="btnChange" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="30" data-tchmi-height-unit="%" data-tchmi-left="70" data-tchmi-left-unit="%" data-tchmi-text="%l%Change%/l%" data-tchmi-top="35" data-tchmi-top-unit="%" data-tchmi-width="25" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-background-color="%i%clDefaultBlue%/i%" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-text-font-size="20" data-tchmi-text-font-weight="Bold">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btnChange.onStatePressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnChange::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDarkBlue%/i%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var user = TcHmi.Server.getCurrentUser();\nvar oldpass = TcHmi.Symbol.readEx(\"%ctrl%tbOldPass::Text%/ctrl%\");\nvar newpass = TcHmi.Symbol.readEx(\"%ctrl%tbNewPass::Text%/ctrl%\");\n\nTcHmi.Server.UserManagement.updateUser(\n    user, \n    {\n        //newName: newuser,\n        password: newpass,\n        currentPassword: oldpass\n        //autoLogout: autologout,\n    },\n    function(data) {\n        if (data.error === TcHmi.Errors.NONE) {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%PasswordUpdate%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"success\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"success\");\n        } else {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%WrongPassword%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"error\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"failed: \", data);\n        }\n    }\n);\n\n//TcHmi.Server.UserManagement.getApiAccess(\n//    null,\n//    function(data) {\n//        if (data.error === TcHmi.Errors.NONE) {\n//            console.log(data.result);\n//        }\n//   \t});"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "btnChange.onStateReleased",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnChange::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDefaultBlue%/i%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+</div>
+
+<div id="TcHmi_Controls_System_TcHmiGrid_223" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-background-color="%i%clSideBar%/i%">
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  },
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  },
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<div id="cbAutoLogout" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="%l%AutoLogOut%/l%" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="1" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="5" data-tchmi-left-unit="%" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-text-font-size="15">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-src-data" type="application/json">
+[
+  {
+    "id": 0,
+    "value": "PT5M",
+    "text": "5m"
+  },
+  {
+    "id": 1,
+    "value": "PT10M",
+    "text": "10m"
+  },
+  {
+    "id": 2,
+    "value": "PT30M",
+    "text": "30m"
+  },
+  {
+    "id": 3,
+    "value": "PT1H",
+    "text": "1h"
+  },
+  {
+    "id": 4,
+    "value": "PT5H",
+    "text": "5h"
+  },
+  {
+    "id": 5,
+    "value": "PT12H",
+    "text": "12h"
+  },
+  {
+    "id": 6,
+    "value": "PT1D",
+    "text": "1d"
+  },
+  {
+    "id": 7,
+    "value": "PT7D",
+    "text": "7d"
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+
+<div id="cbGroup" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="%l%Group%/l%" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="5" data-tchmi-left-unit="%" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-text-font-size="15">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-src-data" type="application/json">
+[
+  {
+    "id": 0,
+    "value": "Engineering",
+    "text": "%l%Engineering%/l%"
+  },
+  {
+    "id": 1,
+    "value": "Maintanance",
+    "text": "%l%Maintanance%/l%"
+  },
+  {
+    "id": 2,
+    "value": "Operator",
+    "text": "%l%Operating%/l%"
+  },
+  {
+    "id": 3,
+    "value": "Observer",
+    "text": "%l%Observing%/l%"
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="tbName" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="5" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-placeholder="%l%NewUserName%/l%" data-tchmi-text-font-size="15" data-tchmi-text-font-weight="Normal">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+
+<div data-tchmi-grid-row-index="1" data-tchmi-grid-column-index="0" id="tbPass" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="5" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-placeholder="%l%NewPassword%/l%" data-tchmi-text-font-size="15" data-tchmi-text-font-weight="Normal">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+</div>
+
+<div id="swEnable" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCheckbox" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="2" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="5" data-tchmi-left-unit="%" data-tchmi-text="%l%Enable%/l%" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-text-font-size="15" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-toggle-state="Active">
+
+</div>
+
+<div id="btnAdd" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-grid-column-index="2" data-tchmi-grid-row-index="0" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="10" data-tchmi-left-unit="%" data-tchmi-text="%l%Add%/l%" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-background-color="%i%clDefaultGreen%/i%" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-text-font-size="20" data-tchmi-text-font-weight="Bold">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btnAdd.onStatePressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnAdd::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDarkGreen%/i%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var user = TcHmi.Symbol.readEx(\"%ctrl%tbName::Text%/ctrl%\");\nvar pass = TcHmi.Symbol.readEx(\"%ctrl%tbPass::Text%/ctrl%\");\nvar group = TcHmi.Symbol.readEx(\"%ctrl%cbGroup::SelectedValue%/ctrl%\");\nvar autolog = TcHmi.Symbol.readEx(\"%ctrl%cbAutolog::SelectedValue%/ctrl%\");\nvar enable = TcHmi.Symbol.readEx(\"%ctrl%swEnable::Text%/ctrl%\");\n\nTcHmi.Server.UserManagement.addUserEx(\n    user, \n    pass, \n    {\n    \tgroups: [group], \n    \tenabled: true, \n    \tautoLogout: autolog\n    },\n    {timeout: 2000},\n    function(data) {\n        if (data.error === TcHmi.Errors.NONE) {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%UserAdd%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"success\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"success\");\n        } else {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%Error%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"error\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"failed: \", data);\n        }\n    }\n);\n\n\n//TcHmi.Server.UserManagement.getApiAccess(\n//    null,\n//    function(data) {\n//        if (data.error === TcHmi.Errors.NONE) {\n//            console.log(data.result);\n//        }\n//   \t});"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "btnAdd.onStateReleased",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnAdd::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDefaultGreen%/i%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="btnUpdate" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-grid-column-index="2" data-tchmi-grid-row-index="1" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="10" data-tchmi-left-unit="%" data-tchmi-text="%l%Update%/l%" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-background-color="%i%clDefaultBlue%/i%" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-text-font-size="20" data-tchmi-text-font-weight="Bold">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btnUpdate.onStatePressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnUpdate::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDarkBlue%/i%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var user = TcHmi.Symbol.readEx(\"%ctrl%tbName::Text%/ctrl%\");\nvar pass = TcHmi.Symbol.readEx(\"%ctrl%tbPass::Text%/ctrl%\");\nvar group = TcHmi.Symbol.readEx(\"%ctrl%cbGroup::SelectedValue%/ctrl%\");\nvar autolog = TcHmi.Symbol.readEx(\"%ctrl%cbAutolog::SelectedValue%/ctrl%\");\nvar enable = TcHmi.Symbol.readEx(\"%ctrl%swEnable::Text%/ctrl%\");\n\nTcHmi.Server.UserManagement.updateUser(\n    user, \n    {\n        //newName: newuser,\n        password: pass,\n        //currentPassword: oldpass\n        autoLogout: autolog,\n        addGroups: [group], \n    \tenabled: true\n    },\n    function(data) {\n        if (data.error === TcHmi.Errors.NONE) {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%UserUpdate%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"success\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"success\");\n        } else {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%Error%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"error\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"failed: \", data);\n        }\n    }\n);\n\n//TcHmi.Server.UserManagement.getApiAccess(\n//    null,\n//    function(data) {\n//        if (data.error === TcHmi.Errors.NONE) {\n//            console.log(data.result);\n//        }\n//   \t});\n\n//TcHmi.Server.UserManagement.getApiAccess(\n//    null,\n//    function(data) {\n//        if (data.error === TcHmi.Errors.NONE) {\n//            console.log(data.result);\n//        }\n//   \t});"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "btnUpdate.onStateReleased",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnUpdate::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDefaultBlue%/i%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="btnDelete" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-grid-column-index="2" data-tchmi-grid-row-index="2" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="10" data-tchmi-left-unit="%" data-tchmi-text="%l%Delete%/l%" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-background-color="%i%clDefaultRed%/i%" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-text-font-size="20" data-tchmi-text-font-weight="Bold">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btnDelete.onStatePressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnDelete::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDarkRed%/i%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var user = TcHmi.Symbol.readEx(\"%ctrl%tbName::Text%/ctrl%\");\n\nTcHmi.Server.UserManagement.removeUser (\n    user, \n    function(data) {\n        if (data.error === TcHmi.Errors.NONE) {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%UserDelete%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"success\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"success\");\n        } else {\n    \t\tvar msg = TcHmi.Symbol.readEx(\"%l%Error%/l%\");\n    \t\tcuteToast({\n    \t\t\ttype: \"error\",\n    \t\t\tmessage: msg,\n    \t\t\ttimer: 3000\n    \t\t});\n            console.log(\"failed: \", data);\n        }\n    }\n);\n\n//TcHmi.Server.UserManagement.getApiAccess(\n//    null,\n//    function(data) {\n//        if (data.error === TcHmi.Errors.NONE) {\n//            console.log(data.result);\n//        }\n//   \t});"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "btnDelete.onStateReleased",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnDelete::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDefaultRed%/i%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+</div>
+
+</div>
+
+<div id="TcHmi_Controls_Beckhoff_TcHmiDatagrid" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="200" data-tchmi-height-unit="px" data-tchmi-left="273" data-tchmi-left-unit="px"    data-tchmi-top="55" data-tchmi-top-unit="px" data-tchmi-width="370" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-src-column" type="application/json">
+[
+  {
+    "name": "Test1",
+    "label": "Column 1",
+    "control": "TextBlock",
+    "width": 70,
+    "widthUnit": "px",
+    "resize": true,
+    "minWidth": 100,
+    "minWidthUnit": "px",
+    "editable": false,
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "cellBackground": null,
+    "textColor": null
+  },
+  {
+    "name": "Test2",
+    "label": "Column 2",
+    "control": "TextBlock",
+    "width": 70,
+    "widthUnit": "px",
+    "resize": true,
+    "minWidth": 70,
+    "minWidthUnit": "px",
+    "editable": false,
+    "sortable": true,
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "cellBackground": null,
+    "textColor": null
+  },
+  {
+    "name": "Test3",
+    "label": "Column 3",
+    "control": "CheckBox",
+    "width": 70,
+    "widthUnit": "px",
+    "resize": true,
+    "minWidth": 70,
+    "minWidthUnit": "px",
+    "editable": true,
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "cellBackground": null,
+    "textColor": null
+  },
+  {
+    "name": "Test4",
+    "label": "Column 4",
+    "control": "TextBox",
+    "width": 100,
+    "widthUnit": "px",
+    "resize": true,
+    "minWidth": 70,
+    "minWidthUnit": "px",
+    "editable": true,
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "cellBackground": null,
+    "textColor": null
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-src-data" type="application/json">
+[
+  {
+    "Test1": "Example Data",
+    "Test2": 42,
+    "Test3": true,
+    "Test4": "Editable Data"
+  },
+  {
+    "Test1": "Example Data",
+    "Test2": 3.1415,
+    "Test3": false,
+    "Test4": "Editable Data"
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-cell-content-padding" type="application/json">
+{
+  "left": 3,
+  "leftUnit": "px",
+  "right": 3,
+  "rightUnit": "px",
+  "top": 0,
+  "topUnit": "px",
+  "bottom": 0,
+  "bottomUnit": "px"
+}
+</script>
+
+</div>
+
+</div>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "Default_4.onAttached",
+    "actions": [
+      {
+        "objectType": "Function",
+        "active": true,
+        "fn": "TcHmi.Functions.Thesis_HMI.GetUserData",
+        "fnParams": [
+          {
+            "objectType": "StaticValue",
+            "valueType": "tchmi:general#/definitions/Number",
+            "value": null
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
 </div>

@@ -10,15 +10,15 @@
   },
   "dependencyFiles": [
     {
-      "name": "VerticalAlign.js",
+      "name": "GetUserData.js",
       "type": "JavaScript",
       "description": ""
     }
   ],
   "function": {
-    "name": "VerticalAlign",
+    "name": "GetUserData",
     "namespace": "TcHmi.Functions.Thesis_HMI",
-    "displayName": "VerticalAlign",
+    "displayName": "GetUserData",
     "description": "",
     "waitMode": "Synchronous",
     "category": "",

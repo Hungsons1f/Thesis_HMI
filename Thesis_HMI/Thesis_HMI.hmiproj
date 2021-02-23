@@ -179,6 +179,13 @@
     <Content Include="Functions\FillColor.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Functions\GetUserData.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Functions\GetUserData.js</DependentUpon>
+    </Content>
+    <Content Include="Functions\GetUserData.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Functions\Num2Time.function.json">
       <SubType>Content</SubType>
       <DependentUpon>Functions\Num2Time.js</DependentUpon>
@@ -191,13 +198,6 @@
       <DependentUpon>Functions\SwitchFillColor.js</DependentUpon>
     </Content>
     <Content Include="Functions\SwitchFillColor.js">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Functions\VerticalAlign.function.json">
-      <SubType>Content</SubType>
-      <DependentUpon>Functions\VerticalAlign.js</DependentUpon>
-    </Content>
-    <Content Include="Functions\VerticalAlign.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\england.svg">
@@ -272,6 +272,27 @@
     <Content Include="Images\vietnam.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Libs\cute-alert\cute-alert.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Libs\cute-alert\img\error.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Libs\cute-alert\img\info.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Libs\cute-alert\img\question.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Libs\cute-alert\img\success.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Libs\cute-alert\img\warning.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Libs\cute-alert\style.css">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="UserControls\ucLight_x.usercontrol">
       <SubType>Content</SubType>
     </Content>
@@ -311,9 +332,12 @@
     <Folder Include="Imports\Images" />
     <Folder Include="Imports\Videos" />
     <Folder Include="KeyboardLayouts\" />
+    <Folder Include="Libs\cute-alert" />
+    <Folder Include="Libs\cute-alert\img" />
     <Folder Include="Localization" />
     <Folder Include="Contents" />
     <Folder Include="Functions" />
+    <Folder Include="Libs" />
     <Folder Include="UserControls" />
     <Folder Include="Themes" />
     <Folder Include="Themes\Base\" />

@@ -45,12 +45,22 @@
       "type": "JavaScript"
     },
     {
-      "name": "Functions/VerticalAlign.js",
+      "name": "Functions/Num2Time.js",
       "description": "",
       "type": "JavaScript"
     },
     {
-      "name": "Functions/Num2Time.js",
+      "name": "Libs/cute-alert/cute-alert.js",
+      "description": "",
+      "type": "JavaScript"
+    },
+    {
+      "name": "Libs/cute-alert/style.css",
+      "description": "",
+      "type": "Stylesheet"
+    },
+    {
+      "name": "Functions/GetUserData.js",
       "description": "",
       "type": "JavaScript"
     }
@@ -211,10 +221,10 @@
       "url": "Functions\\SwitchFillColor.js"
     },
     {
-      "url": "Functions\\VerticalAlign.js"
+      "url": "Functions\\Num2Time.js"
     },
     {
-      "url": "Functions\\Num2Time.js"
+      "url": "Functions\\GetUserData.js"
     }
   ],
   "symbols": {
