@@ -48,9 +48,17 @@
       "name": "Functions/VerticalAlign.js",
       "description": "",
       "type": "JavaScript"
+    },
+    {
+      "name": "Functions/Num2Time.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [
+    {
+      "url": "UserControls/ucLight_x.usercontrol"
+    },
     {
       "url": "UserControls/ucSideBarPump.usercontrol"
     },
@@ -58,40 +66,12 @@
       "url": "UserControls/ucSwitch_x.usercontrol"
     },
     {
-      "url": "UserControls/ucLight_x.usercontrol"
-    },
-    {
       "url": "UserControls/ucSymbolFactory_x.usercontrol"
     }
   ],
   "content": [
     {
-      "url": "Contents/Monitor/FanForce3.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/FanForce2.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/PumpSupply.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/FanForce1.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
       "url": "Contents/Monitor/Turbine.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/Boiler.content",
       "preload": false,
       "keepAlive": false
     },
@@ -101,7 +81,7 @@
       "keepAlive": false
     },
     {
-      "url": "Contents/Monitor/VesselAirEjector.content",
+      "url": "Contents/Monitor/ValveLPHeater.content",
       "preload": false,
       "keepAlive": false
     },
@@ -116,17 +96,17 @@
       "keepAlive": false
     },
     {
+      "url": "Contents/Monitor/VesselAirEjector.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/Boiler.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
       "url": "Contents/Monitor/PumpCircular.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/ValveTurbine.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/ValveAirEjector.content",
       "preload": false,
       "keepAlive": false
     },
@@ -136,12 +116,52 @@
       "keepAlive": false
     },
     {
-      "url": "Contents/Monitor/ValveLPHeater.content",
+      "url": "Contents/Monitor/ValveAirEjector.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/ValveTurbine.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/PumpSupply.content",
       "preload": false,
       "keepAlive": false
     },
     {
       "url": "Contents/Monitor/PumpCondense.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/FanForce3.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/FanForce2.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/FanForce1.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Parameter/Fan.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Parameter/Valve.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Parameter/Pump.content",
       "preload": false,
       "keepAlive": false
     },
@@ -192,6 +212,9 @@
     },
     {
       "url": "Functions\\VerticalAlign.js"
+    },
+    {
+      "url": "Functions\\Num2Time.js"
     }
   ],
   "symbols": {
@@ -304,7 +327,6 @@
   "actionTemplates": [],
   "languages": {
     "vi-VN": "Localization\\vi-VI.localization",
-    "de-DE": "Localization\\de-DE.localization",
     "en-US": "Localization\\en-US.localization"
   },
   "disableLoadingOptimization": false,

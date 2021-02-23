@@ -118,7 +118,7 @@ div id="TcHmi_Controls_Beckhoff_TcHmiRectangle_1" data-tchmi-type="TcHmi.Control
     "actions": [
       {
         "objectType": "SwitchCase",
-        "active": true,
+        "active": false,
         "compare": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",

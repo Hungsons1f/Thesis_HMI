@@ -1,8 +1,15 @@
-﻿@font-face {        
-    font-family: "Segoe UI", RobotoCondensed; 
-    src: url(Roboto-Condensed-webfont.woff); 
+﻿@font-face {
+    font-family: RobotoCondensed;
+    src: url(Roboto-Condensed-webfont.woff);
 } 
 
+@font-face {
+    font-family: "Noto Sans";
+}
+
+@font-face {
+    font-family: "Segoe UI";
+}
 /**
     Description about font inclusion in TcHmi
 

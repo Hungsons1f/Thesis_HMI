@@ -23,7 +23,7 @@
     <EnableTypeScript>true</EnableTypeScript>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Thesis_HMI</Name>
-    <HmiCommunicationRouterPort>10102</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10108</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.742.1</HmiInitial>
     <HmiRecent>1.12.742.1</HmiRecent>
@@ -115,28 +115,13 @@
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <Target Name="Clean" DependsOnTargets="BaseClean" />
   <ItemGroup>
-    <Content Include="Contents\Monitor\FanForce3.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Contents\Monitor\FanForce2.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Contents\Monitor\PumpSupply.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Contents\Monitor\FanForce1.content">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Contents\Monitor\Turbine.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Contents\Monitor\Boiler.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Contents\Monitor\VesselCondenser.content">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Contents\Monitor\VesselAirEjector.content">
+    <Content Include="Contents\Monitor\ValveLPHeater.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Contents\Monitor\VesselHPHeater.content">
@@ -145,22 +130,46 @@
     <Content Include="Contents\Monitor\VesselLPHeater.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Contents\Monitor\VesselAirEjector.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Monitor\Boiler.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Contents\Monitor\PumpCircular.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Contents\Monitor\ValveTurbine.content">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Contents\Monitor\ValveAirEjector.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Contents\Monitor\ValveHPHeater.content">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Contents\Monitor\ValveLPHeater.content">
+    <Content Include="Contents\Monitor\ValveAirEjector.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Monitor\ValveTurbine.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Monitor\PumpSupply.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Contents\Monitor\PumpCondense.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Monitor\FanForce3.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Monitor\FanForce2.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Monitor\FanForce1.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Parameter\Fan.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Parameter\Valve.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Parameter\Pump.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Functions\FillColor.function.json">
@@ -168,6 +177,13 @@
       <DependentUpon>Functions\FillColor.js</DependentUpon>
     </Content>
     <Content Include="Functions\FillColor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Functions\Num2Time.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Functions\Num2Time.js</DependentUpon>
+    </Content>
+    <Content Include="Functions\Num2Time.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Functions\SwitchFillColor.function.json">
@@ -182,6 +198,9 @@
       <DependentUpon>Functions\VerticalAlign.js</DependentUpon>
     </Content>
     <Content Include="Functions\VerticalAlign.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\england.svg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Icons\turbine.svg">
@@ -211,10 +230,46 @@
     <Content Include="Images\SymbolFactory\coal-tank-norm.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\SymbolFactory\condenser.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\cooling-tower.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\cooling-water-vessel.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\SymbolFactory\fan-norm.svg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\SymbolFactory\fan-act.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\furnace.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\heat-tube.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\pump-act.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\pump-norm.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\turbine.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\valve-act.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\valve-norm.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\vessel.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\vietnam.svg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UserControls\ucLight_x.usercontrol">
@@ -246,6 +301,7 @@
       <DependentUpon>UserControls\ucSymbolFactory_x.usercontrol</DependentUpon>
     </Content>
     <Folder Include="Contents\Monitor" />
+    <Folder Include="Contents\Parameter" />
     <Folder Include="Fonts\" />
     <Folder Include="Images" />
     <Folder Include="Images\Manifest" />
@@ -411,18 +467,9 @@
       <SubType>Content</SubType>
       <Visible>true</Visible>
     </Content>
-    <Content Include="Localization\de-DE.tpl.localization">
-      <SubType>Content</SubType>
-      <Visible>true</Visible>
-    </Content>
     <Content Include="Localization\en-US.tpl.localization">
       <SubType>Content</SubType>
       <Visible>true</Visible>
-    </Content>
-    <Content Include="Localization\de-DE.localization">
-      <SubType>Content</SubType>
-      <Visible>true</Visible>
-      <DependentUpon>Localization\de-DE.tpl.localization</DependentUpon>
     </Content>
     <Content Include="Localization\en-US.localization">
       <SubType>Content</SubType>

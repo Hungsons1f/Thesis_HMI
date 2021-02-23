@@ -44,7 +44,7 @@
   {
     "accessright": "operate",
     "group": "Observer",
-    "permission": "Deny"
+    "permission": "Allow"
   },
   {
     "accessright": "operate",
