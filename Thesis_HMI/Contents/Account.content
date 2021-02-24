@@ -144,7 +144,7 @@
 </script>
 </div>
 
-<div id="TcHmi_Controls_System_TcHmiGrid_222" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="15" data-tchmi-top-unit="%" data-tchmi-width="70" data-tchmi-width-unit="%">
+<div id="TcHmi_Controls_System_TcHmiGrid_222" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="70" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="30" data-tchmi-top-unit="%" data-tchmi-width="70" data-tchmi-width-unit="%">
 <script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
 [
   {
@@ -234,7 +234,7 @@
 
 </div>
 
-<div id="btnChange" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="30" data-tchmi-height-unit="%" data-tchmi-left="70" data-tchmi-left-unit="%" data-tchmi-text="%l%Change%/l%" data-tchmi-top="35" data-tchmi-top-unit="%" data-tchmi-width="25" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-background-color="%i%clDefaultBlue%/i%" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-text-font-size="20" data-tchmi-text-font-weight="Bold">
+<div id="btnChange" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="30" data-tchmi-height-unit="%" data-tchmi-left="70" data-tchmi-left-unit="%" data-tchmi-text="%l%Change%/l%" data-tchmi-top="50" data-tchmi-top-unit="%" data-tchmi-width="25" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-background-color="%i%clDefaultBlue%/i%" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-text-font-size="20" data-tchmi-text-font-weight="Bold">
 
 
 <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
@@ -289,6 +289,73 @@
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
           "symbolExpression": "%i%clDefaultBlue%/i%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div id="btnLogout" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="30" data-tchmi-height-unit="%" data-tchmi-left="35" data-tchmi-left-unit="%" data-tchmi-text="%l%Logout%/l%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="30" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-background-color="%i%clDefaultRed%/i%" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-text-font-size="20" data-tchmi-text-font-weight="Bold">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 6.0,
+  "topRight": 6.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 6.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "btnLogout.onStatePressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnLogout::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDarkRed%/i%"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "Function",
+        "active": true,
+        "fn": "TcHmi.Functions.Beckhoff.Logout",
+        "fnParams": [
+          {
+            "objectType": "StaticValue",
+            "valueType": "tchmi:general#/definitions/Boolean",
+            "value": true
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "btnLogout.onStateReleased",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%btnLogout::BackgroundColor%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%i%clDefaultRed%/i%"
         },
         "asyncWait": true
       }
@@ -775,6 +842,68 @@
 </script>
 </div>
 
+
+<script data-tchmi-target-attribute="data-tchmi-virtual-control-right-mappings" type="application/json">
+[]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Engineering",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Maintenance",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Observer",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operator",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Engineering",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Maintenance",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Observer",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Operator",
+    "permission": "Deny"
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 0.0,
+  "topRight": 0.0,
+  "bottomLeft": 6.0,
+  "bottomRight": 0.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
 </div>
 
 </div>
@@ -953,6 +1082,55 @@
         "asyncWait": true
       }
     ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-virtual-control-right-mappings" type="application/json">
+[]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-access-config" type="application/json">
+[
+  {
+    "accessright": "operate",
+    "group": "Engineering",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Maintenance",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Observer",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "Operator",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Engineering",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Maintenance",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Observer",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "Operator",
+    "permission": "Deny"
   }
 ]
 </script>

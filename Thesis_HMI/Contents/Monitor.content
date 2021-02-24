@@ -1,6 +1,6 @@
 ﻿<div id="Monitor" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-left-unit="%" data-tchmi-top-unit="%" data-tchmi-width-unit="%" data-tchmi-height-unit="%">
 
-<div id="rgRegion" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+<div id="rgRegion" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-target-content="Contents/Default.content">
 
 </div>
 
@@ -1049,10 +1049,6 @@
   "bottomUnit": "px"
 }
 </script>
-</div>
-
-<div id="ucPump" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="10" data-tchmi-height-unit="px" data-tchmi-left="65" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControls/ucSideBarPump.usercontrol" data-tchmi-top="40" data-tchmi-top-unit="px" data-tchmi-width="62" data-tchmi-width-unit="px" data-tchmi-state="3">
-
 </div>
 
 

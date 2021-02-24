@@ -15,18 +15,8 @@
 <script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
 [
   {
-    "height": 1.0,
-    "heightUnit": "factor",
-    "heightMode": "Value",
-    "maxHeight": null,
-    "maxHeightUnit": "px",
-    "minHeight": null,
-    "minHeightUnit": "px",
-    "overflow": false
-  },
-  {
-    "height": 11.0,
-    "heightUnit": "factor",
+    "height": 60.0,
+    "heightUnit": "px",
     "heightMode": "Value",
     "maxHeight": null,
     "maxHeightUnit": "px",
@@ -60,7 +50,7 @@
 [
   {
     "name": "",
-    "page": "Contents/Default.content",
+    "page": "Contents/Home.content",
     "parameter": "",
     "subtitle": "",
     "image": "Images/Icons/home.svg",
@@ -135,25 +125,64 @@
     "imageHeightUnit": "px",
     "children": "",
     "accessRight": ""
-  },
-  {
-    "name": "",
-    "page": "",
-    "parameter": "",
-    "subtitle": "",
-    "image": "Images/Icons/signout.svg",
-    "imageWidth": 40.0,
-    "imageWidthUnit": "px",
-    "imageHeight": 40.0,
-    "imageHeightUnit": "px",
-    "children": "",
-    "accessRight": ""
   }
 ]
 </script>
 </div>
 
 <div id="TcHmi_Controls_ResponsiveNavigation_TcHmiNavigationContent" data-tchmi-type="TcHmi.Controls.ResponsiveNavigation.TcHmiNavigationContent" data-tchmi-auto-collapse-elements="False" data-tchmi-close-font-size="130" data-tchmi-close-font-size-unit="%" data-tchmi-column-element-font-size="120" data-tchmi-column-element-font-size-unit="%" data-tchmi-column-element-margin-top-unit="px" data-tchmi-column-title-font-size="130" data-tchmi-column-title-font-size-unit="%" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="30" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-mobile-element-margin-top-unit="px" data-tchmi-padding-left-right-unit="px" data-tchmi-show-icons-mobile="True" data-tchmi-subtitle-font-size="130" data-tchmi-subtitle-font-size-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+
+</div>
+
+<div id="TcHmi_Controls_Beckhoff_TcHmiTextblock_211" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="70" data-tchmi-left-unit="%" data-tchmi-text="%f%TcHmi.Functions.Thesis_HMI.GetCurrentUser(0);%/f%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="30" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="20">
+
+</div>
+
+<div id="TcHmi_Controls_Beckhoff_TcHmiKeyboard" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiKeyboard" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="250" data-tchmi-height-unit="px" data-tchmi-label-font-size="14" data-tchmi-layout-file="KeyboardLayouts/US - compact.keyboard.json" data-tchmi-left="-119" data-tchmi-left-unit="px" data-tchmi-scale-mode="ScaleToFit" data-tchmi-top="39" data-tchmi-top-unit="px" data-tchmi-width="790" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-indirect-input-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+<script data-tchmi-target-attribute="data-tchmi-keyboard-padding" type="application/json">
+{
+  "top": 10,
+  "topUnit": "px",
+  "right": 10,
+  "rightUnit": "px",
+  "bottom": 10,
+  "bottomUnit": "px",
+  "left": 10,
+  "leftUnit": "px"
+}
+</script>
+<script data-tchmi-target-attribute="data-tchmi-key-padding" type="application/json">
+{
+  "top": 4,
+  "topUnit": "px",
+  "right": 4,
+  "rightUnit": "px",
+  "bottom": 4,
+  "bottomUnit": "px",
+  "left": 4,
+  "leftUnit": "px"
+}
+</script>
+<script data-tchmi-target-attribute="data-tchmi-additional-key-backdrop-padding" type="application/json">
+{
+  "top": 10,
+  "topUnit": "px",
+  "right": 10,
+  "rightUnit": "px",
+  "bottom": 10,
+  "bottomUnit": "px",
+  "left": 10,
+  "leftUnit": "px"
+}
+</script>
 
 </div>
 

@@ -101,7 +101,8 @@
     "UserUpdate": "User updated!",
     "UserDelete": "User Deleted!",
     "UserName": "User Name",
-    "AutoLogoutTime": "Auto Logout Time"
+    "AutoLogoutTime": "Auto Logout Time",
+    "Logout": "LOGOUT"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

@@ -20,11 +20,6 @@
             "PASSWORD": "db4d048f4fd86f58aa84962cee485a6ea97a54cc3416b8b0c66e0af201b677a3",
             "SALT": "YER+nr86fO7xNc6Lpc5hg36mq+h8UgBkltIhTLC4x7fUhyMdA1+9qhrh4NW4yZF3oeIkqGRXeq6oGpvYfyXCAA=="
         },
-        "Test": {
-            "ENABLED": true,
-            "PASSWORD": "932a5acb48bfc43794a78febae8cfecc40470e3dd9cce7d46f599226adadcfaf",
-            "SALT": "Q5VKWUiHQlrT0V28T8ER/0D+oXIeIUxBrIyyjswz/E3rwlG4uo/p5mCT1Dvm3ZED7i9gvVDtY6gPLxmM3eF+AA=="
-        },
         "__SystemAdministrator": {
             "ENABLED": true,
             "PASSWORD": "91436d3b5046a6b0abfbd4a63a429750de65c58b75f49e67c80542db894463f9",

@@ -48,6 +48,26 @@
     "accessright": "observe",
     "group": "Operator",
     "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "__SystemGuests",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "operate",
+    "group": "__SystemUsers",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "__SystemGuests",
+    "permission": "Deny"
+  },
+  {
+    "accessright": "observe",
+    "group": "__SystemUsers",
+    "permission": "Deny"
   }
 ]
 </script>
@@ -300,10 +320,6 @@
   "bottomUnit": "px"
 }
 </script>
-</div>
-
-<div id="ucPump_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="10" data-tchmi-height-unit="px" data-tchmi-left="65" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControls/ucSideBarPump.usercontrol" data-tchmi-top="40" data-tchmi-top-unit="px" data-tchmi-width="62" data-tchmi-width-unit="px" data-tchmi-state="3">
-
 </div>
 
 

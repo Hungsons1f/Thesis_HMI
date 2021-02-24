@@ -68,6 +68,11 @@
       "name": "Functions/JsonParse.js",
       "description": "",
       "type": "JavaScript"
+    },
+    {
+      "name": "Functions/GetCurrentUser.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [
@@ -209,6 +214,11 @@
       "url": "Contents/Monitor.content",
       "preload": false,
       "keepAlive": false
+    },
+    {
+      "url": "Contents/Home.content",
+      "preload": false,
+      "keepAlive": false
     }
   ],
   "views": [
@@ -233,6 +243,9 @@
     },
     {
       "url": "Functions\\JsonParse.js"
+    },
+    {
+      "url": "Functions\\GetCurrentUser.js"
     }
   ],
   "symbols": {

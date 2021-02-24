@@ -101,7 +101,8 @@
     "UserUpdate": "Đã cập nhật người dùng!",
     "UserDelete": "Đã xóa người dùng!",
     "UserName": "Tên Người dùng",
-    "AutoLogoutTime": "T.gian tự đăng xuất"
+    "AutoLogoutTime": "T.gian tự đăng xuất",
+    "Logout": "ĐĂNG XUẤT"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

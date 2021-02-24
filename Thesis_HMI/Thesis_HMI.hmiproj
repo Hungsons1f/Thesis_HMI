@@ -115,6 +115,9 @@
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <Target Name="Clean" DependsOnTargets="BaseClean" />
   <ItemGroup>
+    <Content Include="Contents\Home.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Contents\Monitor\Turbine.content">
       <SubType>Content</SubType>
     </Content>
@@ -179,6 +182,13 @@
     <Content Include="Functions\FillColor.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Functions\GetCurrentUser.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Functions\GetCurrentUser.js</DependentUpon>
+    </Content>
+    <Content Include="Functions\GetCurrentUser.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Functions\GetUserData.function.json">
       <SubType>Content</SubType>
       <DependentUpon>Functions\GetUserData.js</DependentUpon>
@@ -229,6 +239,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\Icons\fan.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\logo.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\SymbolFactory\boiler.svg">
