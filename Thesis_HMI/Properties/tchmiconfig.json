@@ -63,6 +63,11 @@
       "name": "Functions/GetUserData.js",
       "description": "",
       "type": "JavaScript"
+    },
+    {
+      "name": "Functions/JsonParse.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [
@@ -225,6 +230,9 @@
     },
     {
       "url": "Functions\\GetUserData.js"
+    },
+    {
+      "url": "Functions\\JsonParse.js"
     }
   ],
   "symbols": {
@@ -328,6 +336,18 @@
           "color": "rgba(0, 142, 173, 1)"
         },
         "type": "tchmi:framework#/definitions/Color",
+        "persist": false,
+        "readonly": false
+      },
+      "sUserData": {
+        "value": "",
+        "type": "tchmi:general#/definitions/String",
+        "persist": false,
+        "readonly": false
+      },
+      "sUserName": {
+        "value": "",
+        "type": "tchmi:general#/definitions/String",
         "persist": false,
         "readonly": false
       }

@@ -99,7 +99,9 @@
     "UserAdd": "Đã thêm người dùng mới!",
     "Error": "Lỗi",
     "UserUpdate": "Đã cập nhật người dùng!",
-    "UserDelete": "Đã xóa người dùng!"
+    "UserDelete": "Đã xóa người dùng!",
+    "UserName": "Tên Người dùng",
+    "AutoLogoutTime": "T.gian tự đăng xuất"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

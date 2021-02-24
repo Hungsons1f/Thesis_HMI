@@ -99,7 +99,9 @@
     "UserAdd": "New user added!",
     "Error": "Error",
     "UserUpdate": "User updated!",
-    "UserDelete": "User Deleted!"
+    "UserDelete": "User Deleted!",
+    "UserName": "User Name",
+    "AutoLogoutTime": "Auto Logout Time"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

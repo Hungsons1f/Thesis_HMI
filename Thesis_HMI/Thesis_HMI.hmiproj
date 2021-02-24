@@ -186,6 +186,13 @@
     <Content Include="Functions\GetUserData.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Functions\JsonParse.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Functions\JsonParse.js</DependentUpon>
+    </Content>
+    <Content Include="Functions\JsonParse.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Functions\Num2Time.function.json">
       <SubType>Content</SubType>
       <DependentUpon>Functions\Num2Time.js</DependentUpon>
