@@ -409,10 +409,10 @@
   ],
   "keyboardLayouts": [
     {
-      "url": "KeyboardLayouts/US - compact.keyboard.json"
+      "url": "KeyboardLayouts/Numpad.keyboard.json"
     },
     {
-      "url": "KeyboardLayouts/Numpad.keyboard.json"
+      "url": "KeyboardLayouts/US - compact.keyboard.json"
     }
   ]
 }

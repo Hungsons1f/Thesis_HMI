@@ -235,7 +235,7 @@
 
 </div>
 
-<div id="cKeyboard" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="200" data-tchmi-height-unit="px" data-tchmi-left="12.5" data-tchmi-left-unit="%" data-tchmi-top="-300" data-tchmi-top-unit="%" data-tchmi-width="200" data-tchmi-width-unit="px">
+<div id="cKeyboard" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="200" data-tchmi-height-unit="px" data-tchmi-left="12.5" data-tchmi-left-unit="%" data-tchmi-top="-300" data-tchmi-top-unit="px" data-tchmi-width="200" data-tchmi-width-unit="px">
 
 <div id="xKeyboard" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiKeyboard" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="200" data-tchmi-height-unit="px" data-tchmi-label-font-size="14" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-scale-mode="ScaleToFit" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="200" data-tchmi-width-unit="px" data-tchmi-layout-file="KeyboardLayouts/Numpad.keyboard.json">
 <script data-tchmi-target-attribute="data-tchmi-indirect-input-padding" type="application/json">
@@ -347,11 +347,49 @@
 </script>
 </div>
 
+<div data-tchmi-grid-row-index="1" data-tchmi-grid-column-index="0" id="btnMove" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="-20" data-tchmi-left-unit="px"  data-tchmi-top="190" data-tchmi-top-unit="px" data-tchmi-width="30" data-tchmi-width-unit="px" data-tchmi-src="Images/Icons/move.svg">
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(136, 136, 136, 0.6)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 15.0,
+  "topRight": 15.0,
+  "bottomLeft": 15.0,
+  "bottomRight": 15.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "cKeyboard.onMouseMove",
+    "event": "btnMove.onMouseDown",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var el = document.getElementById(\"cKeyboard\");\n$(el).draggable();\n$(el).draggable(\"enable\");"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "btnMove.onMouseUp",
     "actions": [
       {
         "objectType": "JavaScript",
@@ -359,7 +397,7 @@
         "sourceLines": [
           "var el = document.getElementById(\"cKeyboard\");",
           "\n",
-          "\n$(el).draggable();"
+          "\n$(el).draggable(\"disable\");"
         ],
         "injectContextObject": false,
         "asyncWait": true,
@@ -369,6 +407,8 @@
   }
 ]
 </script>
+</div>
+
 </div>
 
 </div>

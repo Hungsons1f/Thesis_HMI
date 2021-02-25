@@ -226,6 +226,9 @@
     <Content Include="Images\Icons\keyboard.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Icons\move.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Icons\turbine.svg">
       <SubType>Content</SubType>
     </Content>
