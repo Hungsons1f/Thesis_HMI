@@ -23,6 +23,11 @@
           "name": "Themes/Base/BaseStyle.css",
           "description": "",
           "type": "Stylesheet"
+        },
+        {
+          "name": "Themes/Base/jquery-ui.min.css",
+          "description": "",
+          "type": "Stylesheet"
         }
       ],
       "replacesThemeForControls": []
@@ -73,6 +78,11 @@
       "name": "Functions/GetCurrentUser.js",
       "description": "",
       "type": "JavaScript"
+    },
+    {
+      "name": "Libs/jquery-ui/jquery-ui.min.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [
@@ -90,6 +100,11 @@
     }
   ],
   "content": [
+    {
+      "url": "Contents/Home.content",
+      "preload": false,
+      "keepAlive": false
+    },
     {
       "url": "Contents/Monitor/Turbine.content",
       "preload": false,
@@ -212,11 +227,6 @@
     },
     {
       "url": "Contents/Monitor.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Home.content",
       "preload": false,
       "keepAlive": false
     }
@@ -399,10 +409,10 @@
   ],
   "keyboardLayouts": [
     {
-      "url": "KeyboardLayouts/German - compact.keyboard.json"
+      "url": "KeyboardLayouts/US - compact.keyboard.json"
     },
     {
-      "url": "KeyboardLayouts/US - compact.keyboard.json"
+      "url": "KeyboardLayouts/Numpad.keyboard.json"
     }
   ]
 }
