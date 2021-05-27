@@ -25,6 +25,145 @@
     "DEFAULTTIMEZONE": "client",
     "DEFAULTUSERGROUP": "__SystemUsers",
     "DEFINITIONS": {
+        "PLC1.InStream": {
+            "properties": {
+                "AirEjector_Press": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "AirEjector_Temp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Boiler_Press": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Boiler_Temp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "CondensePump_Flow": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "CondensePump_Press": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "CondensePump_Speed": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Condenser_Temp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "ForceFan1_Speed": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "ForceFan2_Speed": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "ForceFan3_Speed": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Furnace_Temp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "HPHeater_Press": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "HPHeater_Temp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "LPHeater_Press": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "LPHeater_Temp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "SupplyPump_Flow": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "SupplyPump_Press": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "SupplyPump_Speed": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Turbine_HighPress": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Turbine_HighTemp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Turbine_ImmediatePress": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Turbine_ImmediateTemp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Turbine_OutPress": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Turbine_OutTemp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Turbine_Rotation": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                }
+            },
+            "type": "object"
+        },
+        "PLC1.Parameters": {
+            "properties": {
+                "Condenser_Htemp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "Condenser_Ltemp": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "MaxSpeed_CircularPump": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "MaxSpeed_CondensePump": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "MaxSpeed_ForceFan1": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "MaxSpeed_ForceFan2": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "MaxSpeed_ForceFan3": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "MaxSpeed_InterPump": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "MaxSpeed_SupplyPump": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                },
+                "PID_AirEjector_Temp": {
+                    "$ref": "#/definitions/PLC1.aS_PidParameter"
+                },
+                "PID_Boiler_Temp": {
+                    "$ref": "#/definitions/PLC1.aS_PidParameter"
+                },
+                "PID_CondensePump_Press": {
+                    "$ref": "#/definitions/PLC1.aS_PidParameter"
+                },
+                "PID_HPHeater_Temp": {
+                    "$ref": "#/definitions/PLC1.aS_PidParameter"
+                },
+                "PID_LPHeater_Temp": {
+                    "$ref": "#/definitions/PLC1.aS_PidParameter"
+                },
+                "PID_SupplyPump_Press": {
+                    "$ref": "#/definitions/PLC1.aS_PidParameter"
+                },
+                "PID_Turbine_Speed": {
+                    "$ref": "#/definitions/PLC1.aS_PidParameter"
+                },
+                "SampleTime": {
+                    "$ref": "tchmi:general#/definitions/REAL"
+                }
+            },
+            "type": "object"
+        },
         "PLC1.PidParameter": {
             "properties": {
                 "Kp": {
@@ -102,6 +241,23 @@
                     "$ref": "tchmi:general#/definitions/INT16"
                 }
             ]
+        },
+        "PLC1.aS_PidParameter": {
+            "properties": {
+                "Kp": {
+                    "$ref": "tchmi:general#/definitions/LREAL"
+                },
+                "Td": {
+                    "$ref": "tchmi:general#/definitions/LREAL"
+                },
+                "Ti": {
+                    "$ref": "tchmi:general#/definitions/LREAL"
+                },
+                "Tn": {
+                    "$ref": "tchmi:general#/definitions/LREAL"
+                }
+            },
+            "type": "object"
         }
     },
     "DEFLATECOMPRESSIONLEVEL": 5,
@@ -1989,153 +2145,13 @@
             },
             "USEMAPPING": true
         },
-        "PLC1.Parameters.MaxSpeed_CircularPump": {
+        "PLC1.Interfacex.Parameters": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::MaxSpeed_CircularPump",
+            "MAPPING": "PLC1::Interfacex::Parameters",
             "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.MaxSpeed_CondensePump": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::MaxSpeed_CondensePump",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.MaxSpeed_ForceFan1": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::MaxSpeed_ForceFan1",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.MaxSpeed_ForceFan2": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::MaxSpeed_ForceFan2",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.MaxSpeed_ForceFan3": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::MaxSpeed_ForceFan3",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.MaxSpeed_SupplyPump": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::MaxSpeed_SupplyPump",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_AirEjector_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_AirEjector_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_CondenserPump_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_CondenserPump_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_Condenser_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_Condenser_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_Furnace_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_Furnace_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_HPHeater_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_HPHeater_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_LPHeater_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_LPHeater_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_SupplyPump_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_SupplyPump_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.PID_Turbine_Speed": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::PID_Turbine_Speed",
-            "SCHEMA": {
-                "$ref": "tchmi:server#/definitions/PLC1.PidParameter"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Parameters.SampleTime": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Parameters::SampleTime",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
+                "$ref": "tchmi:server#/definitions/PLC1.Parameters"
             },
             "USEMAPPING": true
         },
@@ -2326,6 +2342,16 @@
             "MAPPING": "PLC1::PnID::CircularPump::SetSpeed",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/LREAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.CircularPump.Speed": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::CircularPump::Speed",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
             },
             "USEMAPPING": true
         },
@@ -2909,6 +2935,126 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.PnID.InterPump.AccRuntime": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::AccRuntime",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/UDINT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Cmd": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Cmd",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Fault": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Fault",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Maxspeed": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Maxspeed",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Mode": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Mode",
+            "SCHEMA": {
+                "$ref": "tchmi:server#/definitions/PLC1.aE_Mode"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Reset1": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Reset1",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Runtime": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Runtime",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/UDINT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.SetSpeed": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::SetSpeed",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Speed": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Speed",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/REAL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Start": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Start",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.State": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::State",
+            "SCHEMA": {
+                "$ref": "tchmi:server#/definitions/PLC1.aE_State"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.InterPump.Stop": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::InterPump::Stop",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.PnID.LPHeaterValve.AccRuntime": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3239,213 +3385,23 @@
             },
             "USEMAPPING": true
         },
-        "PLC1.Streams.InStream.AirEjector_Press": {
+        "PLC1.Streams.InStream": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::AirEjector_Press",
+            "MAPPING": "PLC1::Streams::InStream",
             "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
+                "$ref": "tchmi:server#/definitions/PLC1.InStream"
             },
             "USEMAPPING": true
         },
-        "PLC1.Streams.InStream.AirEjector_Temp": {
+        "PLC1.Streams.OutStream.CircularPump_OutFlow": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::AirEjector_Temp",
+            "MAPPING": "PLC1::Streams::OutStream::CircularPump_OutFlow",
             "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.CircularPump_Flow": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::CircularPump_Flow",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.Combuster_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::Combuster_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.CondensePump_Flow": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::CondensePump_Flow",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.CondensePump_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::CondensePump_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.Condenser_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::Condenser_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.ForceFan1_Speed": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::ForceFan1_Speed",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.ForceFan2_Speed": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::ForceFan2_Speed",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.ForceFan3_Speed": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::ForceFan3_Speed",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.Furnace_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::Furnace_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.Furnace_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::Furnace_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.HPHeater_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::HPHeater_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.HPHeater_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::HPHeater_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.LPHeater_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::LPHeater_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.LPHeater_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::LPHeater_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.SupplyPump_Flow": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::SupplyPump_Flow",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.SupplyPump_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::SupplyPump_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.Turbine_Press": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::Turbine_Press",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.Turbine_Rotation": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::Turbine_Rotation",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
-            },
-            "USEMAPPING": true
-        },
-        "PLC1.Streams.InStream.Turbine_Temp": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "MAPPING": "PLC1::Streams::InStream::Turbine_Temp",
-            "SCHEMA": {
-                "$ref": "tchmi:general#/definitions/LREAL"
+                "$ref": "tchmi:general#/definitions/REAL"
             },
             "USEMAPPING": true
         },

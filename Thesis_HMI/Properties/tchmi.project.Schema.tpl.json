@@ -9,6 +9,14 @@
       "type": "object",
       "id": "tchmi:project#/definitions/UserControls_ucLight_x"
     },
+    "UserControls_ucLight3_x": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\ucLight3_x.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserControls_ucLight3_x"
+    },
     "UserControls_ucSideBarPump": {
       "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
       "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
@@ -24,6 +32,14 @@
       "frameworkUserControlConfig": "UserControls\\ucSwitch_x.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/UserControls_ucSwitch_x"
+    },
+    "UserControls_ucSwitch3_x": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\ucSwitch3_x.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserControls_ucSwitch3_x"
     },
     "UserControls_ucSymbolFactory_x": {
       "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",

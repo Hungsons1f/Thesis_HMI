@@ -1,18 +1,18 @@
 ﻿[
   {
     "id": "Beckhoff.TwinCAT.HMI.Controls",
-    "version": "12.744.4"
+    "version": "12.746.0"
   },
   {
     "id": "Beckhoff.TwinCAT.HMI.Framework",
-    "version": "12.744.4"
+    "version": "12.746.0"
   },
   {
     "id": "Beckhoff.TwinCAT.HMI.Functions",
-    "version": "12.744.4"
+    "version": "12.746.0"
   },
   {
     "id": "Beckhoff.TwinCAT.HMI.ResponsiveNavigation",
-    "version": "12.744.4"
+    "version": "12.746.0"
   }
 ]

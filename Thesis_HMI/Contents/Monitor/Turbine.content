@@ -247,7 +247,7 @@
 
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" id="tbValue_188" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream.Turbine_Rotation%/s%" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" id="tbValue_188" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream::Turbine_Rotation%/s%" data-tchmi-is-enabled="False">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -321,7 +321,7 @@
 
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="3" id="tbValue_198" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream.Turbine_Temp%/s%" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="3" id="tbValue_198" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream::Turbine_OutTemp%/s%" data-tchmi-is-enabled="False">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -354,7 +354,7 @@
 </script>
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_199" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%f%%s%PLC1.Streams.InStream.ForceFan1_Speed%/s%*100/ (3*%s%PLC1.PnID.ForceFan1.Maxspeed%/s%)+%s%PLC1.Streams.InStream.ForceFan2_Speed%/s%*100/ (3*%s%PLC1.PnID.ForceFan2.Maxspeed%/s%)+%s%PLC1.Streams.InStream.ForceFan3_Speed%/s%*100/ (3*%s%PLC1.PnID.ForceFan3.Maxspeed%/s%)%/f%" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_199" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%f%%s%PLC1.Streams.InStream::ForceFan1_Speed%/s%*100/ (3*%s%PLC1.PnID.ForceFan1.Maxspeed%/s%)+%s%PLC1.Streams.InStream::ForceFan2_Speed%/s%*100/ (3*%s%PLC1.PnID.ForceFan2.Maxspeed%/s%)+%s%PLC1.Streams.InStream::ForceFan3_Speed%/s%*100/ (3*%s%PLC1.PnID.ForceFan3.Maxspeed%/s%)%/f%" data-tchmi-is-enabled="False">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -453,7 +453,7 @@
 </script>
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_204" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream.Turbine_Press%/s%" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_204" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream::Turbine_OutPress%/s%" data-tchmi-is-enabled="False">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -636,7 +636,7 @@
 </script>
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="3" id="tbValue_192" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="3" id="tbValue_192" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False" data-tchmi-text="%s%PLC1.Streams.InStream::Turbine_HighTemp%/s%">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -706,7 +706,7 @@
 
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" id="tbValue_194" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream.Furnace_Press%/s%" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" id="tbValue_194" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream::Boiler_Press%/s%" data-tchmi-is-enabled="False">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -809,7 +809,7 @@
 </script>
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_206" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_206" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False" data-tchmi-text="%s%PLC1.Streams.InStream::Turbine_HighPress%/s%">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -926,7 +926,7 @@
 
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="2" data-tchmi-grid-column-index="0" id="tbMaxSpeed_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream.Furnace_Temp%/s%" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="2" data-tchmi-grid-column-index="0" id="tbMaxSpeed_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-text="%s%PLC1.Streams.InStream::Boiler_Temp%/s%" data-tchmi-is-enabled="False">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -1025,7 +1025,7 @@
 </script>
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="2" data-tchmi-grid-column-index="3" id="tbMaxSpeed_17" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="2" data-tchmi-grid-column-index="3" id="tbMaxSpeed_17" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="3" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False" data-tchmi-text="%s%PLC1.Streams.InStream::Turbine_ImmediateTemp%/s%">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -1099,7 +1099,7 @@
 
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_205" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="5" id="tbValue_205" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextbox" data-tchmi-grid-column-index="5" data-tchmi-grid-row-index="0" data-tchmi-height="60" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%"  data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="60" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-weight="Bold" data-tchmi-text-font-size="15" data-tchmi-is-enabled="False" data-tchmi-text="%s%PLC1.Streams.InStream::Turbine_ImmediatePress%/s%">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,

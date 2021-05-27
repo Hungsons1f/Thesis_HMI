@@ -87,10 +87,16 @@
   ],
   "userControls": [
     {
+      "url": "UserControls/ucLight3_x.usercontrol"
+    },
+    {
       "url": "UserControls/ucLight_x.usercontrol"
     },
     {
       "url": "UserControls/ucSideBarPump.usercontrol"
+    },
+    {
+      "url": "UserControls/ucSwitch3_x.usercontrol"
     },
     {
       "url": "UserControls/ucSwitch_x.usercontrol"
@@ -227,6 +233,11 @@
     },
     {
       "url": "Contents/Monitor.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/PumpInter.content",
       "preload": false,
       "keepAlive": false
     }

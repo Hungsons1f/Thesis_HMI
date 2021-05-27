@@ -102,7 +102,9 @@
     "UserDelete": "Đã xóa người dùng!",
     "UserName": "Tên Người dùng",
     "AutoLogoutTime": "T.gian tự đăng xuất",
-    "Logout": "ĐĂNG XUẤT"
+    "Logout": "ĐĂNG XUẤT",
+    "InterPump": "Bơm Tr.Gian",
+    "ChooseMode": "Tay/Tự động/Bảo trì"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

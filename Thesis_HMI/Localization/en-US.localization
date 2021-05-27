@@ -102,7 +102,9 @@
     "UserDelete": "User Deleted!",
     "UserName": "User Name",
     "AutoLogoutTime": "Auto Logout Time",
-    "Logout": "LOGOUT"
+    "Logout": "LOGOUT",
+    "InterPump": "Inter. Pump",
+    "ChooseMode": "Man/Auto/Service"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

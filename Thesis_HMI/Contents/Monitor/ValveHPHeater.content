@@ -164,11 +164,6 @@
   "bottomRightUnit": "px"
 }
 </script>
-<div id="UcLight_x_24" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-height="80" data-tchmi-height-unit="%" data-tchmi-left="10" data-tchmi-left-unit="%" data-tchmi-on="%s%PLC1.PnID.HPHeaterValve.Mode%/s%" data-tchmi-target-user-control="UserControls/ucLight_x.usercontrol" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-coloroff="%i%clDefaultBlue%/i%" data-tchmi-coloron="%i%clDefaultGreen%/i%">
-
-
-
-</div>
 
 <div id="UcLight_x_25" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-height="80" data-tchmi-height-unit="%" data-tchmi-left="10" data-tchmi-left-unit="%" data-tchmi-on="%s%PLC1.PnID.HPHeaterValve.Cmd%/s%" data-tchmi-target-user-control="UserControls/ucLight_x.usercontrol" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-coloroff="%i%clDefaultGray%/i%" data-tchmi-coloron="%i%clDefaultGreen%/i%">
 
@@ -177,6 +172,13 @@
 </div>
 
 <div id="UcLight_x_26" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-grid-column-index="2" data-tchmi-grid-row-index="0" data-tchmi-height="80" data-tchmi-height-unit="%" data-tchmi-left="10" data-tchmi-left-unit="%" data-tchmi-on="%s%PLC1.PnID.HPHeaterValve.Fault%/s%" data-tchmi-target-user-control="UserControls/ucLight_x.usercontrol" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-coloroff="%i%clDefaultGray%/i%" data-tchmi-coloron="%i%clDefaultRed%/i%">
+
+
+
+</div>
+
+<div id="UcLight_x_43" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-height="80" data-tchmi-height-unit="%" data-tchmi-left="10" data-tchmi-left-unit="%" data-tchmi-on="%s%PLC1.PnID.HPHeaterValve.Mode%/s%" data-tchmi-target-user-control="UserControls/ucLight3_x.usercontrol" data-tchmi-top="10" data-tchmi-top-unit="%" data-tchmi-width="80" data-tchmi-width-unit="%" data-tchmi-colorzero="%i%clDefaultBlue%/i%" data-tchmi-colorone="%i%clDefaultGreen%/i%" data-tchmi-colortwo="%i%clDefaultYellow%/i%">
+
 
 
 
@@ -732,160 +734,6 @@
 
 </div>
 
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="grGrid_26" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="20" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-height-mode="Content">
-<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
-[
-  {
-    "width": 1.5,
-    "widthUnit": "factor",
-    "widthMode": "Value",
-    "maxWidth": null,
-    "maxWidthUnit": "px",
-    "minWidth": null,
-    "minWidthUnit": "px",
-    "overflow": false
-  },
-  {
-    "width": 60.0,
-    "widthUnit": "px",
-    "widthMode": "Value",
-    "maxWidth": null,
-    "maxWidthUnit": "px",
-    "minWidth": null,
-    "minWidthUnit": "px",
-    "overflow": false
-  },
-  {
-    "width": 1.5,
-    "widthUnit": "factor",
-    "widthMode": "Value",
-    "maxWidth": null,
-    "maxWidthUnit": "px",
-    "minWidth": null,
-    "minWidthUnit": "px",
-    "overflow": false
-  }
-]
-</script>
-<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
-[
-  {
-    "height": 1.0,
-    "heightUnit": "factor",
-    "heightMode": "Value",
-    "maxHeight": null,
-    "maxHeightUnit": "px",
-    "minHeight": null,
-    "minHeightUnit": "px",
-    "overflow": false
-  }
-]
-</script>
-
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="UcSwitch_8" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-size="12" data-tchmi-target-user-control="UserControls/ucSwitch_x.usercontrol" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-colorzero="%i%clDefaultBlue%/i%" data-tchmi-colorone="%i%clDefaultGreen%/i%" data-tchmi-bottom-unit="px" data-tchmi-right-unit="px" data-tchmi-left-unit="px" data-tchmi-left="0" data-tchmi-state="%s%PLC1.PnID.HPHeaterValve.Mode%/s%">
-
-
-
-
-
-
-
-
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "UcSwitch_8.onPressed",
-    "actions": [
-      {
-        "objectType": "SwitchCase",
-        "active": true,
-        "compare": {
-          "objectType": "Symbol",
-          "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%"
-        },
-        "cases": [
-          {
-            "caseValue": {
-              "objectType": "StaticValue",
-              "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
-              "value": 0
-            },
-            "actions": [
-              {
-                "objectType": "WriteToSymbol",
-                "active": true,
-                "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%",
-                "value": {
-                  "objectType": "StaticValue",
-                  "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
-                  "value": 1
-                },
-                "asyncWait": true
-              }
-            ]
-          },
-          {
-            "caseValue": {
-              "objectType": "StaticValue",
-              "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
-              "value": 1
-            },
-            "actions": [
-              {
-                "objectType": "WriteToSymbol",
-                "active": true,
-                "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%",
-                "value": {
-                  "objectType": "StaticValue",
-                  "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
-                  "value": 0
-                },
-                "asyncWait": true
-              }
-            ]
-          },
-          {
-            "caseValue": {
-              "objectType": "StaticValue",
-              "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
-              "value": 2
-            },
-            "actions": [
-              {
-                "objectType": "WriteToSymbol",
-                "active": true,
-                "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%",
-                "value": {
-                  "objectType": "StaticValue",
-                  "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
-                  "value": 1
-                },
-                "asyncWait": true
-              }
-            ]
-          }
-        ],
-        "asyncWait": true
-      }
-    ]
-  }
-]
-</script>
-</div>
-
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmi_Controls_Beckhoff_TcHmiTextblock_74" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-text="%l%Manual%/l%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%">
-
-</div>
-
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="2" data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmi_Controls_Beckhoff_TcHmiTextblock_75" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left-unit="px" data-tchmi-text="%l%Automatic%/l%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="%" data-tchmi-right="0">
-
-</div>
-
-
-
-</div>
-
 <div data-tchmi-grid-row-index="1" data-tchmi-grid-column-index="0" id="grGrid_27" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="1" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-creator-visibility="Visible">
 <script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
 [
@@ -1068,6 +916,143 @@
 {
   "color": "rgba(0, 0, 0, 1)"
 }
+</script>
+</div>
+
+</div>
+
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="grGrid_43" data-tchmi-type="TcHmi.Controls.System.TcHmiGrid" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="5" data-tchmi-left-unit="%" data-tchmi-top="30" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-height-mode="Content">
+<script data-tchmi-target-attribute="data-tchmi-column-options" type="application/json">
+[
+  {
+    "width": 1.0,
+    "widthUnit": "factor",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  },
+  {
+    "width": 60.0,
+    "widthUnit": "px",
+    "widthMode": "Value",
+    "maxWidth": null,
+    "maxWidthUnit": "px",
+    "minWidth": null,
+    "minWidthUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+<script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
+[
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  }
+]
+</script>
+
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmi_Controls_Beckhoff_TcHmiTextblock_220" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="%" data-tchmi-text="%l%ChooseMode%/l%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="90" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%">
+
+</div>
+
+
+
+<div id="UcSwitch3_7" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-grid-column-index="1" data-tchmi-grid-row-index="1" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-size="12" data-tchmi-state="%s%PLC1.PnID.HPHeaterValve.Mode%/s%" data-tchmi-target-user-control="UserControls/ucSwitch3_x.usercontrol" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-colorzero="%i%clDefaultBlue%/i%" data-tchmi-colorone="%i%clDefaultGreen%/i%" data-tchmi-colortwo="%i%clDefaultYellow%/i%">
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "UcSwitch3_7.onPressed",
+    "actions": [
+      {
+        "objectType": "SwitchCase",
+        "active": true,
+        "compare": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%"
+        },
+        "cases": [
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
+              "value": 0
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
+                  "value": 1
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
+              "value": 1
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
+                  "value": 2
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
+              "value": 2
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%s%PLC1.PnID.HPHeaterValve.Mode%/s%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:server#/definitions/PLC1.aE_Mode",
+                  "value": 0
+                },
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  }
+]
 </script>
 </div>
 

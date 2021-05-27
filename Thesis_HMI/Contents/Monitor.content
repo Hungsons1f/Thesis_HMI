@@ -56,7 +56,7 @@
 
 
 
-<div id="ctPumpMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="130" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="14.3" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
+<div id="ctPumpMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="170" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="14.3" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
 <div id="tCondensePump" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-text="%l%CondensePump%/l%" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="px">
 
 
@@ -214,6 +214,52 @@
   }
 ]
 </script>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="tCircularPump_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-text="%l%InterPump%/l%" data-tchmi-top="130" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "tCircularPump_1.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%rgRegion::TargetContent%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Contents/Monitor/PumpInter.content"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "$('#ctPumpMenu').animate({\n\tright: '-300px'\n});\n"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%ctPumpMenu::Right%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/MeasurementValue",
+          "value": -300.0
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+
 </div>
 
 <div id="ctFanMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="130" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="28.7" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
