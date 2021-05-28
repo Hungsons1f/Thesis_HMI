@@ -124,7 +124,10 @@
     <Content Include="Contents\Monitor\Turbine.content">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Contents\Monitor\VesselCondenser.content">
+    <Content Include="Contents\Monitor\VesselCondenser - Copy.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\Monitor\TankInter.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Contents\Monitor\ValveLPHeater.content">
@@ -232,6 +235,9 @@
     <Content Include="Images\Icons\move.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\Icons\tank.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Icons\turbine.svg">
       <SubType>Content</SubType>
     </Content>
@@ -290,6 +296,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\SymbolFactory\river.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SymbolFactory\tank.svg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Images\SymbolFactory\turbine.svg">

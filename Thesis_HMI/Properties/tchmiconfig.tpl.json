@@ -112,12 +112,12 @@
       "keepAlive": false
     },
     {
-      "url": "Contents/Monitor/Turbine.content",
+      "url": "Contents/Monitor/PumpInter.content",
       "preload": false,
       "keepAlive": false
     },
     {
-      "url": "Contents/Monitor/VesselCondenser.content",
+      "url": "Contents/Monitor/Turbine.content",
       "preload": false,
       "keepAlive": false
     },
@@ -237,7 +237,12 @@
       "keepAlive": false
     },
     {
-      "url": "Contents/Monitor/PumpInter.content",
+      "url": "Contents/Monitor/VesselCondenser - Copy.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/TankInter.content",
       "preload": false,
       "keepAlive": false
     }

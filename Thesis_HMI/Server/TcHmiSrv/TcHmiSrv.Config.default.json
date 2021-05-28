@@ -3385,6 +3385,44 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.PnID.bHI": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::bHI",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "attributes": {
+                            "TcAddressType": "Input"
+                        }
+                    },
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.PnID.bLO": {
+            "ACCESS": 3,
+            "CUSTOMERDATA": "",
+            "DOMAIN": "ADS",
+            "MAPPING": "PLC1::PnID::bLO",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "attributes": {
+                            "TcAddressType": "Input"
+                        }
+                    },
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "PLC1.Streams.InStream": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",

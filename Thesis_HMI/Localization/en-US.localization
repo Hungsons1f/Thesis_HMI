@@ -104,7 +104,9 @@
     "AutoLogoutTime": "Auto Logout Time",
     "Logout": "LOGOUT",
     "InterPump": "Inter. Pump",
-    "ChooseMode": "Man/Auto/Service"
+    "ChooseMode": "Man/Auto/Service",
+    "Tank": "TANK",
+    "InterTank": "Inter.Tank"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

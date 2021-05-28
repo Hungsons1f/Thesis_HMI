@@ -104,7 +104,9 @@
     "AutoLogoutTime": "T.gian tự đăng xuất",
     "Logout": "ĐĂNG XUẤT",
     "InterPump": "Bơm Tr.Gian",
-    "ChooseMode": "Tay/Tự động/Bảo trì"
+    "ChooseMode": "Tay/Tự động/Bảo trì",
+    "Tank": "BỒN",
+    "InterTank": "Bồn Tr.gian"
   },
   "$schema": "../.hmiframework/Schema/LocalizationDescription.Schema.json"
 }

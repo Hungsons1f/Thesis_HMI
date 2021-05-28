@@ -56,7 +56,7 @@
 
 
 
-<div id="ctPumpMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="170" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="14.3" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
+<div id="ctPumpMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="170" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="12.5" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
 <div id="tCondensePump" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-text="%l%CondensePump%/l%" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="px">
 
 
@@ -262,7 +262,7 @@
 
 </div>
 
-<div id="ctFanMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="130" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="28.7" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
+<div id="ctFanMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="130" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="25" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
 
 <div id="tForceFan1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="px" data-tchmi-text="%l%ForceFan1%/l%">
 
@@ -428,7 +428,7 @@
 </script>
 </div>
 
-<div id="ctVesselMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="170" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="57.1" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
+<div id="ctVesselMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="170" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="37.5" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
 
 <div id="tLPHeater" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="px" data-tchmi-text="%l%LPHeater%/l%">
 
@@ -640,7 +640,7 @@
 
 </div>
 
-<div id="ctValveMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="170" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="42.9" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
+<div id="ctValveMenu" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="170" data-tchmi-height-unit="px" data-tchmi-left-unit="px" data-tchmi-top="50" data-tchmi-top-unit="%" data-tchmi-width="180" data-tchmi-width-unit="px" data-tchmi-background-color="%i%clSideBar%/i%" data-tchmi-right="-300" data-tchmi-right-unit="px">
 
 <div id="tLPHeaterValve_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="30" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="160" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-color="%i%clDefaultWhite%/i%" data-tchmi-right-unit="px" data-tchmi-text="%l%LPHeaterValve%/l%">
 
@@ -868,6 +868,16 @@
 </script>
 <script data-tchmi-target-attribute="data-tchmi-row-options" type="application/json">
 [
+  {
+    "height": 1.0,
+    "heightUnit": "factor",
+    "heightMode": "Value",
+    "maxHeight": null,
+    "maxHeightUnit": "px",
+    "minHeight": null,
+    "minHeightUnit": "px",
+    "overflow": false
+  },
   {
     "height": 1.0,
     "heightUnit": "factor",
@@ -1577,6 +1587,53 @@
 ]
 </script>
 <div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="tPump_5" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-text="%l%Turbine%/l%" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-left="65" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-text-font-size="20" data-tchmi-text-vertical-alignment="Top" data-tchmi-text-font-size-unit="px">
+
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+</div>
+
+</div>
+
+<div data-tchmi-grid-row-index="7" data-tchmi-grid-column-index="0" id="ctTank" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0.0" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="%" data-tchmi-width="100" data-tchmi-width-unit="%">
+
+
+
+<div data-tchmi-grid-row-index="7" data-tchmi-grid-column-index="0" id="imTank" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width="40" data-tchmi-width-unit="px" data-tchmi-top="10" data-tchmi-src="Images/Icons/tank.svg">
+
+
+
+
+
+</div>
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ctTank.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%rgRegion::TargetContent%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/ContentPath",
+          "value": "Contents/Monitor/TankInter.content"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="tPump_9" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-text="%l%Tank%/l%" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-left="65" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-text-font-size="20" data-tchmi-text-vertical-alignment="Top" data-tchmi-text-font-size-unit="px">
 
 
 <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
