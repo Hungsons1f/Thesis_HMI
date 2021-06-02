@@ -23,7 +23,7 @@
     <EnableTypeScript>true</EnableTypeScript>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>Thesis_HMI</Name>
-    <HmiCommunicationRouterPort>10112</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10113</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.742.1</HmiInitial>
     <HmiRecent>1.12.742.1</HmiRecent>

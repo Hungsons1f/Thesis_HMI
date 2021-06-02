@@ -122,6 +122,16 @@
       "keepAlive": false
     },
     {
+      "url": "Contents/Monitor/VesselCondenser - Copy.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
+      "url": "Contents/Monitor/TankInter.content",
+      "preload": false,
+      "keepAlive": false
+    },
+    {
       "url": "Contents/Monitor/ValveLPHeater.content",
       "preload": false,
       "keepAlive": false
@@ -233,16 +243,6 @@
     },
     {
       "url": "Contents/Monitor.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/VesselCondenser - Copy.content",
-      "preload": false,
-      "keepAlive": false
-    },
-    {
-      "url": "Contents/Monitor/TankInter.content",
       "preload": false,
       "keepAlive": false
     }
